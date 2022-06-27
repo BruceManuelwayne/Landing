@@ -30,7 +30,12 @@ function Contact() {
     <div className=' flex flex-col mb-32 space-y-12 md:w-1/2 text-white font-semibold font-Montserrat'> right</div>
 
   </div>
-  <Wave mask="url(#mask)" fill="#1277b0" >
+  <Wave mask="url(#mask)" fill="#1277b0" options={{
+     height: 20,
+     amplitude: 40,
+     speed: 0.10,
+     points: 3
+  }} >
     <defs>
       <linearGradient id="gradient" gradientTransform="rotate(90)">
         <stop offset="0" stopColor="white" />
