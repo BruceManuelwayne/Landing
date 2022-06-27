@@ -1,0 +1,51 @@
+{
+    
+    "nav": {
+        "tecnologia":"Technology",
+        "quienes somos": "About us",
+        "atraccion": "Atraction",
+        "negocio":"Business", 
+        "contacto": "Contact us"
+    },
+    "hero":{
+        "olas":"WORLD WIDE WAVE PROVIDER",
+        "conocenos":"ABOUT US"  
+    },
+    "tech": {
+        "titulo":"TECHNOLOGY",
+        "tecno1":"THE OPERATING PRINCIPLE OF OUR TECHNOLOGY IS BASED ON INJECTING WATER STORED IN CHAMBERS THROUGH COMPRESSED AIR", 
+        "tecno2": "OVERALL THE OPERATION OF OUR WAVE GENERATING MACHINE IS REPRESENTED BY THE FOLLOWING COMPONENTS" 
+    },
+    "machine":{
+        "titulo":"SURF TIME", 
+        "machine1":"The quantity of modules is proportional to the surf time.",
+        "componentes":"COMPONENTS",
+        "compInfo":"90 % of the components used are standardized products utilized in different industries. Creating a high  available rate for development,assembly and maintenance.",
+        "main":"MAINTENANCE",
+        "mainInfo":"The majority of components are located in dry areas reducing the exposure to corrosion and allowing easy access to said components."
+        },
+    "team":{
+        "title":"ABOUT US",
+        "team1":"THE OLA GROUP was founded with the goal to bring the surfing experience to any location in the world, creating the possibility of  a new lifestyle in areas that before were unthought-of.",
+        "team2": "We work with a strong commitment to the environment and we seek to live in equilibrium, minimizing our footprint.",
+        "team3":"We have an interdisciplinary team with over 20 individuals specialized in different areas working towards making the dream that unites us come true: surfable waves anywhere in the world. "
+    },
+    "mission":{
+        "title":"MISSION",
+        "mission1":"Our goal is to work passionately under solid bases in development and engineering, innovation, aiming to generate an excellent experience with a strong sustainable vocation."
+    },
+    "attraction":{
+        "title":"ATTRACTION",
+        "att1":"OUR WAVE GENERATION SYSTEM IS VERSATILE AND CAN GENERATE DIFFERENT TYPES OF WAVES. IT IS MODULAR, SO IT CAN BE ADAPTED TO DIFFERENT TECHNICAL AND COMMERCIAL REQUIREMENTS.",
+        "att2":"THE QUANTITY OF MODULES DETERMINES THE LENGTH OF THE SURFABLE WAVE.",
+        "att3":"AN ADVANTAGE OF OUR PRODUCT IS THAT THE MACHINE CAN BE HIDDEN AND SOUNDPROOFED GIVING IMPORTANCE NOT ONLY TO THE AMOUNT OF WAVES BUT ALSO TO THE ENVIRONMENT."
+    },
+    "contact": {
+        "location":"Cardales, Buenos Aires, Argentina",
+        "copy": "Copyright © 2022, All Rights Reserved La Ola Group"
+        
+    }
+    
+    
+    
+}

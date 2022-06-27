@@ -1,0 +1,47 @@
+{
+    "nav": {
+        "tecnologia":"Tecnologia",
+        "quienes somos": "Quienes Somos",
+        "atraccion": "Atraccion",
+        "negocio":"Negocio", 
+        "contacto": "Contacto"
+    },
+    "hero": {
+        "olas":"LLEVAMOS OLAS A CUALQUIER PARTE DEL MUNDO",
+        "conocenos": "CONOCENOS"
+    },
+    "tech": {
+        "titulo":"TECNOLOGIA",
+        "tecno1":"EL PRINCIPIO DE FUNCIONAMIENTO DE NUESTRA TECNOLOGÍA SE BASA EN INYECTAR AGUA ALOJADA EN CÁMARAS MEDIANTE AIRE COMPRIMIDO", 
+        "tecno2": "EN LÍNEAS GENERALES EL MECANISMO DE FUNCIONAMIENTO SE ENCUENTRA REPRESENTADO POR LOS SIGUIENTES COMPONENTES PRINCIPALES" 
+    },
+    "machine":{
+        "titulo":"TIEMPO DE SURFEADO", 
+        "machine1":"La cantidad de módulos determina el tiempo de surfeado proporcionalmente",
+        "componentes":"COMPONENTES",
+        "compInfo":"Los componentes utilizados en un 90% son productos estandarizados utilizados en diferentes industrias, lo que permite rápida disponibilidad para armar, montar y mantener.",
+        "main":"MANTENIMIENTO",
+        "mainInfo":"La mayor parte de las piezas se localizan en una zona seca reduciendo la exposición a la corrosión y permitiendo el fácil acceso a los componentes implicados en el funcionamiento de la máquina."
+        },
+        "team":{
+            "title":"EQUIPO",
+            "team1":"THE OLA GROUP was founded with the goal to bring the surfing experience to any location in the world, creating the possibility of  a new lifestyle in areas that before were unthought-of.",
+            "team2": "Trabajamos comprometidos con nuestro medio ambiente y buscamos lograr ser una especie en equilibrio, dejando la menor huella posible.",
+            "team3":"Contamos con un equipo interdisciplinario de más de 20 personas especializadas en distintas áreas trabajando en pos de hacer realidad el sueño que nos une: olas en cualquier parte del mundo."
+        },
+        "mission":{
+            "title":"MISIÓN ",
+            "mission1":"Trabajar apasionadamente bajo bases sólidas en materia de desarrollo e ingeniería siendo innovadores, teniendo por objetivo generar una experiencia de excelencia con una fuerte vocación sostenible y sustentable"
+        },
+        "attraction":{
+            "title":"ATRACCIÓN",
+            "att1":"NUESTRO SISTEMA DE GENERACIÓN DE OLAS ES VERSÁTIL Y SE PUEDEN GENERAR DISTINTOS TIPOS. ES MODULAR POR LO QUE SE PUEDE ADAPTAR A DISTINTOS REQUERIMIENTOS TÉCNICOS Y COMERCIALES.",
+            "att2":"LA CANTIDAD DE MÓDULOS DETERMINA EL TIEMPO DE SURFEADO.",
+            "att3":"UNA VENTAJA DE NUESTRO PRODUCTO ES QUE LA MÁQUINA PUEDE ESTAR INVISIBLE E INSONORIZADA DÁNDOLE IMPORTANCIA NO SOLO A LA CANTIDAD DE OLAS SINO TAMBIÉN AL ENTORNO"
+        },
+        "contact": {
+            "location":"Cardales, Buenos Aires, Argentina",
+            "copy": "Copyright © 2022, All Rights Reserved La Ola Group"
+            
+        }
+}
