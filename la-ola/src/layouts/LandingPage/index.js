@@ -6,13 +6,14 @@ import Machine from '../../components/Machine';
 import Equipo from '../../components/Equipo'; 
 import Attraction from '../../components/Attraction';
 import Contact from '../../components/Contact';
+import Nav from '../../components/Nav';
 
 
 const LandingPageLayout = () => {
 
     return (
         <div className='h-screen flex flex-col '>
-            <Header/>
+            <Nav/>
             <Hero/>
             <Tech/>
             <Machine/>

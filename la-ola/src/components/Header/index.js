@@ -2,7 +2,7 @@ import React, {useState, useRef} from 'react';
 import Logo from './../../assets/logoblanco.svg'; 
 import {Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import "./index.css"; 
+//import "./index.css";  does not work with tailwind logic.
 
 
 //home tecnologia quienes somos atraccion negocio contacto 
