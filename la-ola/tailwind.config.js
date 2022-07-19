@@ -10,7 +10,9 @@ module.exports = {
       fontFamily:{
         Montserrat:["Montserrat","sans-serif"],
         TTNormsReg:["TTNormsReg","sans-serif"],
-        TTNormsLight:["TTNormsLight","sans-serif"]
+        TTNormsLight:["TTNormsLight","sans-serif"],
+        CustomOla:["CustomOla","sans-serif"],
+        CustomOla2:["CustomOla2","sans-serif"]
       },
       container: {
         padding: '3.5rem',
