@@ -37,7 +37,7 @@ code {
 .wave{
 overflow:hidden;
 position:relative;
-animation: wave linear 5s ;
+
 }
 
 .wave::before{
