@@ -90,6 +90,7 @@ const Header = () => {
                                 <li className="hover:bg-gray-800">    
                                     <Link className="flex w-full text-base pt-2.5 px-2.5" to='/quienes somos'>Quines Somos</Link>    
                                 </li>   
+                       
                                 <li className="hover:bg-gray-800">
                                     <Link className="flex w-full text-base pt-2.5 px-2.5" to='/atraccion'>Atraccion</Link>       
                                 </li>
@@ -99,24 +100,25 @@ const Header = () => {
                                 <li className="hover:bg-gray-800">
                                     <Link className="flex w-full text-base pt-2.5 px-2.5" to='/home'>Contacto</Link>       
                                 </li>
+                         
                             </ul>
-                            <div className='absolute inset-0 flex justify-center items-center z-50'>
-                            <Wave mask="url(#mask)" fill="#1277b0" options={{
-                                height: 20,
-                                amplitude: 40,
-                                speed: 0.10,
-                                points: 3
-                            }} >
-                                <defs>
-                                <linearGradient id="gradient" gradientTransform="rotate(90)">
-                                    <stop offset="0" stopColor="white" />
-                                    <stop offset="0.5" stopColor="black" />
-                                </linearGradient>
-                                <mask id="mask">
-                                    <rect x="0" y="0" width="2000" height="200" fill="url(#gradient)"  />
-                                </mask>
-                                </defs>
-                            </Wave>
+                            <div className='absolute inset-y-10 inset-x-0'>
+                                    <Wave mask="url(#mask)" fill="#1277b0" options={{
+                                        height: 20,
+                                        amplitude: 40,
+                                        speed: 0.10,
+                                        points: 3
+                                    }} >
+                                        <defs>
+                                        <linearGradient id="gradient" gradientTransform="rotate(90)">
+                                            <stop offset="0" stopColor="white" />
+                                            <stop offset="0.5" stopColor="black" />
+                                        </linearGradient>
+                                        <mask id="mask">
+                                            <rect x="0" y="0" width="2000" height="200" fill="url(#gradient)"  />
+                                        </mask>
+                                        </defs>
+                                    </Wave>
 
                             </div>
                             
