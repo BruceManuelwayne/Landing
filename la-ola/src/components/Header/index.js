@@ -32,7 +32,6 @@ const Header = () => {
     //         nav.current.classList.remove('chcolor')
     //     }
     // })
-
     return (
         <header className='bg-white relative '>    
             <div className="max-w-auto mx-auto bg-white">
