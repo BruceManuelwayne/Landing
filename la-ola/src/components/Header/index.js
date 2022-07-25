@@ -1,7 +1,8 @@
 import React, {useState, useRef} from 'react'; 
-import Logo from './../../assets/logoblanco.svg'; 
+import Logo from './../../assets/LOG_logos1-svg.svg'; 
 import {Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import Wave from 'react-wavify'; 
 //import "./index.css";  does not work with tailwind logic.
 
 
@@ -23,33 +24,31 @@ const Header = () => {
     };
 
  
-    window.addEventListener("scroll",(e) => {
-        if(window.scrollY >=100){
-            nav.current.classList.add('chcolor')
-        }
-        else{
-            nav.current.classList.remove('chcolor')
-        }
-    })
+    // window.addEventListener("scroll",(e) => {
+    //     if(window.scrollY >=100){
+    //         nav.current.classList.add('chcolor')
+    //     }
+    //     else{
+    //         nav.current.classList.remove('chcolor')
+    //     }
+    // })
 
     return (
-        <header className='bg-transparent relative '>    
-            <div className="max-w-auto mx-auto bg-transparent">
-                <nav ref={nav} className ="bg-transparent fixed left-0 right-0">
-                    <div className='flex space-x-1 justify-center p-0.5'> 
-                        <button onClick={()=> changeLanguage("en")} type="button" className="px-6 py-2 border-2  border-white text-white font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">en</button>
-                        <button onClick={()=> changeLanguage("es")} type="button" className="px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">es</button> 
-                    </div>
-                    <div className= "max-w-7xl mx-auto bg-transparent ">
-                        <div className ="flex justify-between">
+        <header className='bg-white relative '>    
+            <div className="max-w-auto mx-auto bg-white">
+                <nav ref={nav} className ="bg-white fixed left-0 right-0 w-screen">
+                   
+                    <div className= "max-w-7xl mx-auto bg-white ">
+                        <div className ="flex space-x-60">
                             <div className ="flex items-center">
                                 <div>
-                                    <img className= "object-scale-down h-32 wx-auto" src={Logo} alt="" />
+                                    <img className= "" src={Logo} alt="" />
                                 </div>
                             </div>
                            {/* primary nav */}
                             <div className="hidden md:flex justify-between items-center space-x-3"> 
-                                <ul className="hidden md:flex justify-between space-x-14 py-2 px-4 text-white font-TTNormsReg">
+                            
+                                <ul className="hidden md:flex justify-between space-x-14 py-2 px-2 text-black font-TTNormsReg">
                                     <li className='no-underline hover:underline'>
                                         <Link to='/home'>Home</Link>   
                                     </li>
@@ -73,13 +72,16 @@ const Header = () => {
                             <div className="md:hidden flex items-center py-4 px-4">
                                     <button className='mobile-menu-button' onClick={onClick}>
                                         <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox='0 0 24 24' stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" color="white"/>
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" color="black"/>
                                         </svg> 
                                     </button>
                             </div>
                         </div>
                         <div className={`${!active && 'mobile-menu hidden'}`}>
-                            <ul className = "block py-2 px-4 text-sm  text-white"> 
+                            
+                            <ul className = "block py-2 px-4 text-sm  text-black">
+                        
+ 
                                 <li className="hover:bg-gray-800">
                                     <Link className="flex w-full text-base pt-2.5 px-2.5" to='/home'>Home</Link>   
                                 </li>
@@ -99,7 +101,28 @@ const Header = () => {
                                     <Link className="flex w-full text-base pt-2.5 px-2.5" to='/home'>Contacto</Link>       
                                 </li>
                             </ul>
+                            <div className='absolute inset-0 flex justify-center items-center z-50'>
+                            <Wave mask="url(#mask)" fill="#1277b0" options={{
+                                height: 20,
+                                amplitude: 40,
+                                speed: 0.10,
+                                points: 3
+                            }} >
+                                <defs>
+                                <linearGradient id="gradient" gradientTransform="rotate(90)">
+                                    <stop offset="0" stopColor="white" />
+                                    <stop offset="0.5" stopColor="black" />
+                                </linearGradient>
+                                <mask id="mask">
+                                    <rect x="0" y="0" width="2000" height="200" fill="url(#gradient)"  />
+                                </mask>
+                                </defs>
+                            </Wave>
+
+                            </div>
+                            
                         </div>
+                       
                     </div>
                 </nav>
             </div>

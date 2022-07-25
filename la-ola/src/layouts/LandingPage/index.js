@@ -13,7 +13,7 @@ const LandingPageLayout = () => {
 
     return (
         <div className='h-screen flex flex-col '>
-            <Nav/>
+            <Header/>
             <Hero/>
             <Tech/>
             <Machine/>

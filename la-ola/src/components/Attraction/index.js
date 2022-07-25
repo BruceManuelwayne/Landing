@@ -9,7 +9,7 @@ const Attraction = () => {
 } 
 
   return (
-    <section id ="attraction" className='bg-blue-wave pb-10'>
+    <section id ="attraction" className='bg-blue-wave pb-10 '>
         <div className='container flex flex-col justify-center items-center text-white px-6-mx-auto-mt-10 space-y-0 md:space-y-0 px-6 mx-auto mt-10 space-y.0'>
             {/* <h1 className='font-Montserrat justify-right absolute inset-x-0 lg:text-7xl md:text-7xl sm:text-5xl text-3xl mb-14 '>{t("tech.titulo")}</h1> */}
             <div className='container mx-auto flex flex-col mb-32 space-y-10 text-white'>

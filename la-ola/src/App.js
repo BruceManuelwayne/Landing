@@ -6,7 +6,7 @@ import LandingPageLayout from './layouts/LandingPage';
 import HomePage from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
 
-import './App.css';
+
 
 function App() {
 

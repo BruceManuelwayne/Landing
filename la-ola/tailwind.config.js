@@ -4,6 +4,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes:{
+        wave:{
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translate(100)' },
+
+        },
+      },
+      animation : {
+        'wave':'wave 5s linear infinite',
+      },
       colors: {
         'blue-wave': '#0762aa'
       },
