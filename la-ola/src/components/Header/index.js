@@ -68,7 +68,7 @@ const Header = () => {
                                     </li>
                                 </ul> 
                             </div>
-                            <div className="md:hidden flex items-center py-4 px-4">
+                            <div className="md:hidden flex items-center py-4 px-4 bg-transparent">
                                     <button className='mobile-menu-button' onClick={onClick}>
                                         <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox='0 0 24 24' stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" color="black"/>
@@ -77,36 +77,12 @@ const Header = () => {
                             </div>
                         </div>
                         <div className={`${!active && 'mobile-menu hidden'}`}>
-                            
-                            <ul className = "block py-2 px-4 text-sm  text-black">
-                        
- 
-                                <li className="hover:bg-gray-800">
-                                    <Link className="flex w-full text-base pt-2.5 px-2.5" to='/home'>Home</Link>   
-                                </li>
-                                <li className="hover:bg-gray-800">
-                                    <Link className="flex w-full text-base pt-2.5 px-2.5" to='/tecnologia'>Tecnologia</Link>    
-                                </li>
-                                <li className="hover:bg-gray-800">    
-                                    <Link className="flex w-full text-base pt-2.5 px-2.5" to='/quienes somos'>Quines Somos</Link>    
-                                </li>   
-                       
-                                <li className="hover:bg-gray-800">
-                                    <Link className="flex w-full text-base pt-2.5 px-2.5" to='/atraccion'>Atraccion</Link>       
-                                </li>
-                                <li className="hover:bg-gray-800">
-                                    <Link className="flex w-full text-base pt-2.5 px-2.5" to='/negocio'>Negocio</Link>       
-                                </li>
-                                <li className="hover:bg-gray-800">
-                                    <Link className="flex w-full text-base pt-2.5 px-2.5" to='/home'>Contacto</Link>       
-                                </li>
-                         
-                            </ul>
-                            <div className='absolute inset-y-10 inset-x-0'>
+                        <div className='relative h-48'>
                                     <Wave mask="url(#mask)" fill="#1277b0" options={{
                                         height: 20,
                                         amplitude: 40,
                                         speed: 0.10,
+                                        
                                         points: 3
                                     }} >
                                         <defs>
@@ -121,6 +97,30 @@ const Header = () => {
                                     </Wave>
 
                             </div>
+                            <ul className = "block py-2 px-4 text-sm  text-black absolute inset-y-11 inset-x-0">
+ 
+                                <li className="hover:bg-transparent">
+                                    <Link className="flex w-full text-base pt-2.5 px-2.5 hover:underline" to='/home'>Home</Link>   
+                                </li>
+                                <li className="hover:bg-transparent">
+                                    <Link className="flex w-full text-base pt-2.5 px-2.5 hover:underline" to='/tecnologia'>Tecnologia</Link>    
+                                </li>
+                                <li className="hover:bg-transparent">    
+                                    <Link className="flex w-full text-base pt-2.5 px-2.5 hover:underline" to='/quienes somos'>Quines Somos</Link>    
+                                </li>   
+                       
+                                <li className="hover:bg-transparent">
+                                    <Link className="flex w-full text-base pt-2.5 px-2.5 hover:underline" to='/atraccion'>Atraccion</Link>       
+                                </li>
+                                <li className="hover:bg-white">
+                                    <Link className="flex w-full text-base pt-2.5 px-2.5 hover:underline" to='/negocio'>Negocio</Link>       
+                                </li>
+                                <li className="hover:bg-white">
+                                    <Link className="flex w-full text-base pt-2.5 px-2.5 hover:underline" to='/home'>Contacto</Link>       
+                                </li>
+                         
+                            </ul>
+                           
                             
                         </div>
                        
