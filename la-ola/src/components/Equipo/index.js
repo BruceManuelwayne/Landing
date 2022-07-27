@@ -7,7 +7,8 @@ function Equipo() {
 
   return (
     <section id="equipo" className='bg-blue-wave'>
-         <div className='container flex flex-col-reverse md:flex-row items-center px-6-mx-auto-mt-10 space-y-0 md:space-y-0 px-6 mx-auto mt-10 space-y.0'>
+      <div className='waveLeft'>
+      <div className='container flex flex-col-reverse md:flex-row items-center px-6-mx-auto-mt-10 space-y-0 md:space-y-0 px-6 mx-auto mt-10 space-y.0'>
             <div className='flex flex-col mb-32 space-y-12 md:w-2/3 text-white font-TTNormsReg font-semibold'>
                 <h1 className='max-w-md text-3xl text-center md:text-3xl md:text-left font-semibold'>{t("team.title")}</h1>
                 <p className='max-w-sm text-center md:text-left font-TTNormsLight'>{t("team.team1")} </p>
@@ -36,6 +37,8 @@ function Equipo() {
             
          </div>
         </section>
+      </div>
+        
     </section>
     
   )

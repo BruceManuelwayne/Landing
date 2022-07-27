@@ -27,7 +27,7 @@ function Contact() {
       </div>
         <p className='text-center space-y-10 mx-auto mt-10'>Info@laolagroup.com</p> 
     </div>
-    <div className=' flex flex-col mb-32 space-y-12 md:w-1/2 text-white font-semibold font-Montserrat'> right</div>
+    <div className=' flex flex-col mb-32 space-y-12 md:w-1/2 text-white font-semibold font-TTNormsReg'> right</div>
 
   </div>
   <Wave mask="url(#mask)" fill="#1277b0" options={{
