@@ -6,8 +6,10 @@
         "negocio":"Negocio", 
         "contacto": "Contacto"
     },
+  
     "hero": {
-        "olas":"LLEVAMOS OLAS A CUALQUIER PARTE DEL MUNDO",
+        "olas":"LLEVAMOS OLAS ",
+        "olas2":"A CUALQUIER PARTE DEL MUNDO",
         "conocenos": "CONOCENOS"
     },
     "tech": {

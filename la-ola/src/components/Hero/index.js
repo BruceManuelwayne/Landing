@@ -1,7 +1,7 @@
 
 import React from 'react'; 
 import { useTranslation } from 'react-i18next';
-import Nav from '../../components/Nav';
+
 
 export default function Hero() {
   const[t] = useTranslation("translation"); 

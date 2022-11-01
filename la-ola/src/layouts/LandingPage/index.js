@@ -7,6 +7,7 @@ import Equipo from '../../components/Equipo';
 import Attraction from '../../components/Attraction';
 import Contact from '../../components/Contact';
 import Nav from '../../components/Nav';
+import Main from '../../components/Main';
 
 
 const LandingPageLayout = () => {
@@ -14,6 +15,7 @@ const LandingPageLayout = () => {
     return (
         <div className='h-screen flex flex-col '>
             <Header/>
+            <Main/>
             <Hero/>
             <Tech/>
             <Machine/>

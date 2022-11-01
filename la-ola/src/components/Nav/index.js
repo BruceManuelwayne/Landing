@@ -15,7 +15,7 @@ i18n.changeLanguage(language);
 } 
 
   return (
-    <nav className='flex items-center justify-between max-w-auto mx-auto  px-4 h-16 bg-white fixed left-0 right-0'>
+    <nav className=' overflow-hidden flex items-center justify-between max-w-auto mx-auto  px-4 h-16 bg-white fixed left-0 right-0'>
         
         <img src={Logo} className=""/>
         
