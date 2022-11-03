@@ -4,7 +4,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+
       keyframes:{
+      
         wave:{
           '0%': { transform: 'translateY(0)' },
           '100%': { transform: 'translate(100)' },
