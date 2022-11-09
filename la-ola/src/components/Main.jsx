@@ -1,5 +1,5 @@
 import React from 'react'
-import videoBg from '../assets/VideoBackground.mp4';
+//import videoBg from '../assets/VideoBackground.mp4';
 import { useTranslation } from 'react-i18next';
 import keepWet from './../assets/keepwet.png'; 
 
@@ -9,13 +9,13 @@ const Main = () => {
 
   return (
     <div className='w-full h-screen relative'>
-      <video src={videoBg} 
+      {/* <video src={videoBg} 
         className = 'w-full h-full object-cover' 
         
         muted
         loop
        
-      /> 
+      />  */}
       <div className='bg-black absolute md:p-10 inset-x-0 bottom-0 w-full h-50 z-10 '> 
         <div className='bg-black w-full flex flex-row justify-center align-middle space-x-3  '>
             <div className=' bg-black content w-full h-full flex flex-col space-y-0 mt-3'>
