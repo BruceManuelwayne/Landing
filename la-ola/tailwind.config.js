@@ -4,6 +4,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      padding:{
+        '1/3': '33.33333%',
+        '2/3': '66.66667%',
+      },
 
       keyframes:{
       
@@ -24,7 +28,8 @@ module.exports = {
         TTNormsReg:["TTNormsReg","sans-serif"],
         TTNormsLight:["TTNormsLight","sans-serif"],
         CustomOla:["CustomOla","sans-serif"],
-        CustomOla2:["CustomOla2","sans-serif"]
+        CustomOla2:["CustomOla2","sans-serif"],
+        BoldItalic:["BoldItalic","sans-serif"]
       },
       container: {
         padding: '3.5rem',

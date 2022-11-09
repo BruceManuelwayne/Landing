@@ -55,7 +55,7 @@ const Header = () => {
     // })
 
     return (
-        <div onClick={handleNav} className='flex w-full justify-between items-center h-28 px-4 absolute z-10'>
+        <div  className=' bg-black flex w-full justify-between items-center h-28 px-4 fixed z-20'>
             <div>
                  <img onClick={handleNav} className={logo ? 'hidden': 'object-scale-down h-40 w-40 '} src={Logo} alt="" />
             </div>
@@ -79,8 +79,9 @@ const Header = () => {
                      <Link to='/home'>{t("nav.contacto")}</Link>       
                  </li>
             </ul>
-            <div className='hidden md:flex'>
-                <RiEnglishInput size={20} style={style}/>
+            <div className='hidden md:flex p-4 space-x-4'>
+                <button onClick={()=> changeLanguage("en")} type="button" className="px-6 py-2 border-2  border-white text-white font-medium text-xs leading-tight uppercase rounded-full hover:bg-gray hover:bg-opacity-10 focus:outline-none focus:ring-0 transition duration-150 ease-in-out z-20">en</button>
+                <button onClick={()=> changeLanguage("es")} type="button" className="px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded-full hover:bg-gray hover:bg-opacity-10 focus:outline-none focus:ring-0 transition duration-150 ease-in-out z-20">es</button> 
             </div>
             {/* mobile menu */}
             <div onClick={handleNav} className='md:hidden p-4'>

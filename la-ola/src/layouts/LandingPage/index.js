@@ -8,15 +8,19 @@ import Attraction from '../../components/Attraction';
 import Contact from '../../components/Contact';
 import Nav from '../../components/Nav';
 import Main from '../../components/Main';
+import Render from '../../components/Render';
+import Valores from '../../components/Valores';
 
 
 const LandingPageLayout = () => {
 
     return (
-        <div className='h-screen flex flex-col '>
+        <div className='h-screen w-full flex flex-col '>
             <Header/>
             <Main/>
             <Hero/>
+            <Render/>
+            <Valores/>
             <Tech/>
             <Machine/>
             <Equipo/>

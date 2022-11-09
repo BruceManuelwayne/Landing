@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .grid-custom {
+    grid-template-columns: repeat(3,minmax(0,max-content));
+  }
+}
+
+
 .icon{
   color:#0E63AB;
   }
@@ -41,6 +48,10 @@ li {
   font-family:'ExtraBlack';
   src:url(./assets/fonts/TT\ Norms\ Pro\ ExtraBlack.otf)}
 
+  @font-face {
+  font-family:'BoldItalic';
+  src:url(./assets/fonts/TT\ Norms\ Pro\ Bold Italic.otf)}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -48,6 +59,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 

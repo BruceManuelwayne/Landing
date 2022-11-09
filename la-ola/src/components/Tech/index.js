@@ -9,7 +9,7 @@ const Tech = () => {
 } 
 
   return (
-  <section id="tech" className='bg-blue-wave'> 
+  <section id="tech" className='bg-blue-wave w-screen'> 
     <div className='waveLeft'>
       <div className=' flex flex-col justify-center items-center bg-blue-wave h-screen font-TTNormsReg pt-20 pb-60 '>
 

@@ -6,7 +6,7 @@ function Machine() {
     const[t] = useTranslation("translation"); 
 
   return (
-    <section id="machine" className='bg-slate-50 	'>
+    <section id="machine" className='bg-slate-50 w-screen	'>
       <div className='wave'>
         <div className='container flex flex-col-reverse md:flex-row items-center px-6-mx-auto-mt-10 space-y-0 md:space-y-0 px-6 mx-auto mt-10 space-y.0'>
                 <div className='flex flex-col mb-32 space-y-12 md:w-2/3 text-black font-TTNormsReg'>
