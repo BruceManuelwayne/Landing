@@ -6,11 +6,11 @@ import Machine from '../../components/Machine';
 import Equipo from '../../components/Equipo'; 
 import Attraction from '../../components/Attraction';
 import Contact from '../../components/Contact';
-import Nav from '../../components/Nav';
+
 import Main from '../../components/Main';
 import Render from '../../components/Render';
 import Valores from '../../components/Valores';
-
+import Modulos from '../../components/Modulos';
 
 const LandingPageLayout = () => {
 
@@ -21,7 +21,9 @@ const LandingPageLayout = () => {
             <Hero/>
             <Render/>
             <Valores/>
+           
             <Tech/>
+            <Modulos/>
             <Machine/>
             <Equipo/>
             <Attraction/>

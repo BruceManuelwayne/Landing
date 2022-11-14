@@ -14,7 +14,7 @@
     },
     "tech": {
         "titulo":"TECNOLOGIA",
-        "tecno1":"EL PRINCIPIO DE FUNCIONAMIENTO DE NUESTRA TECNOLOGÍA SE BASA EN INYECTAR AGUA ALOJADA EN CÁMARAS MEDIANTE AIRE COMPRIMIDO", 
+        "tecno1":"El principio de funcionamiento de nuestra tecnología se basa en la generación de ondas mediante la inyección de agua impulsada por la expansión de aire a presión. Las ondas viajan por una pileta específicamente construída con distintos cambios de profundidad que provocan las denominadas rompientes y las correspondientes olas. Mediante el control preciso de todas las variables del proceso logramos una inmensa variedad de olas en tamaños, formas y estilos adaptables a los distintos niveles de surf y por consecuencia necesidades comerciales.", 
         "tecno2": "EN LÍNEAS GENERALES EL MECANISMO DE FUNCIONAMIENTO SE ENCUENTRA REPRESENTADO POR LOS SIGUIENTES COMPONENTES PRINCIPALES" 
     },
     "ola":{
@@ -45,6 +45,16 @@
             "sen4":"Somos fanáticos del surf, de la tecnologia y de los desafios. Buscamos permanentemente lograr cosas impensadas contagiando ese sentimiento vehemente que nos motiva todos los días",
             "title5":"EFICIENCIA",
             "sen5":"Es la permisa fundamental bajo la cual gira nuestro día a día. Mejoramos continuamente insumos, productos, procesos, formas de hacer y pensar en pos de lograr la mejor versión de lo que hacemos."
+        },
+        "modulos":{
+            "title1":"ABASTECIMIENTO ESTANDARIZADO:",
+            "sen1":"Resignificamos insumos de industrias preexistentes, ensamblando piezas y optimizando así los tiempos de construcción.",
+            "title2":"TECNOLOGIA MODULAR:",
+            "sen2":"La máquina se estructura modularmente de manera que variando la cantidad o la dimensión de sus componentes se obtienen distintos productos resultantes y consecuentemente distinta inversión inicial requerida.",
+            "title3":"DIVISION DE COSTOS",
+            "li1":"Tamaño de Ola = Dimensión de los tubos",
+            "li2":"Duración de la Ola = Cantidad de tubos",
+            "li3":"Frecuencia de Generación = Dimensión de compresores de aire"
         },
         "mission":{
             "title":"MISIÓN ",

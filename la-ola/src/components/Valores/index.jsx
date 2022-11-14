@@ -13,49 +13,51 @@ const Valores = () => {
 
   return (
     <>
-    <div className="bg-[url('/src/assets/valores.png')] bg-cover h-screen w-full text-white">
+    <div className="bg-[url('/src/assets/valores.png')] bg-cover w-screen text-white">
     
-        <div className=' min-h-screen w-full grid gap-4 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 grid-rows-3 p-10 md:p-40 '>
+        <div className=' grid gap-4 grid-cols-1 sm:grid-cols-1  md:grid-cols-2 grid-rows-3 p-10 md:p-20 '>
             <div className='grid grid-custom gap-x-6 justify-items-end'>
-                <div className='w-10'>
+                <div className='w-10 sm:scale-90 md:scale-100'>
                     <img src={circle1} alt='Circle1'/></div>
-                <div className=''>  <span className='font-semibold text-xl'>{t("valores.title1")}</span>
-                 <p className='font-TTNormsLight'>{t("valores.sen1")}</p></div>
+                <div className=''>  
+                    <span className='font-BoldItalic text-base md:text-xl'>{t("valores.title1")}</span>
+                    <p className='font-TTNormsLight text-sm md:text-base'>{t("valores.sen1")}</p>
+                 </div>
             </div>
             <div className='grid grid-custom gap-x-6 justify-items-end'>
-                <div className='w-10'>
+                <div className='w-10 sm:scale-90 md:scale-100'>
                     <img src={circle2} alt='Circle1'/>
                 </div>
                 <div>
-                    <span className='font-semibold text-xl'>{t("valores.title2")}</span>
-                    <p className='font-TTNormsLight'>{t("valores.sen2")}</p>
+                    <span className='font-BoldItalic text-base md:text-xl'>{t("valores.title2")}</span>
+                    <p className='font-TTNormsLight text-sm md:text-base'>{t("valores.sen2")}</p>
                 </div>  
             </div>
             <div className='grid grid-custom gap-x-6 justify-items-end'>
-                <div className='w-10'>
+                <div className='w-10 sm:scale-90 md:scale-100'>
                     <img src={circle3} alt='Circle1'/>
                 </div>
-                <div>
-                    <span className='font-semibold text-xl'>{t("valores.title3")}</span>
-                    <p className='font-TTNormsLight'>{t("valores.sen3")}</p>
+                <div className=''>
+                    <span className='font-BoldItalic text-base md:text-xl'>{t("valores.title3")}</span>
+                    <p className='font-TTNormsLight text-sm md:text-base'>{t("valores.sen3")}</p>
                 </div>
             </div>
             <div className='grid grid-custom gap-x-6 justify-items-end'>
-                <div className='w-10'>
+                <div className='w-10 sm:scale-90 md:scale-100'>
                     <img src={circle4} alt='Circle1'/>
                 </div>
                 <div>
-                    <span className='font-semibold text-xl'>{t("valores.title4")}</span>
-                    <p className='font-TTNormsLight'>{t("valores.sen4")}</p>
+                    <span className='font-BoldItalic text-base md:text-xl'>{t("valores.title4")}</span>
+                    <p className='font-TTNormsLight text-sm md:text-base'>{t("valores.sen4")}</p>
                 </div> 
             </div>
             <div className='grid grid-custom gap-x-6 justify-items-end'>
-                <div className='w-10'>
+                <div className='w-10 sm:scale-90 md:scale-100'>
                     <img src={circle5} alt='Circle1'/>
                 </div>
-                <div> 
-                    <span className='font-semibold text-xl'>{t("valores.title5")}</span>
-                    <p className='font-TTNormsLight'>{t("valores.sen5")}</p>
+                <div className=''> 
+                    <span className='font-BoldItalic text-base md:text-xl'>{t("valores.title5")}</span>
+                    <p className='font-TTNormsLight text-sm md:text-base'>{t("valores.sen5")}</p>
                 </div>
             </div>
             <div className='w-full h-32'>
