@@ -20,11 +20,12 @@
     "ola":{
         "mainInfo": "Somos una empresa de tecnología Argentina que desarrolla, diseña y construye máquinas y piscinas en pos de generar olas artificiales surfeables dinámicas de una manera sostenible y sustentable en el tiempo. Nos une la pasión por el surf y el deseo de acercarlo a cualquier parte del mundo, rompiendo paradigmas y generando la posibilidad de llevar adelante un nuevo estilo de vida en lugares antes impensados.Contamos con un equipo interdisciplinario trabajando bajo la premisa de mejora continua en la búsqueda permanente de hacer realidad nuestro sueño: Olas en cualquier parte del mundo."
     },
+    
     "machine":{
-        "titulo":"TIEMPO DE SURFEADO", 
-        "machine1":"La cantidad de módulos determina el tiempo de surfeado proporcionalmente",
-        "componentes":"COMPONENTES",
-        "compInfo":"Los componentes utilizados en un 90% son productos estandarizados utilizados en diferentes industrias, lo que permite rápida disponibilidad para armar, montar y mantener.",
+        "titulo":"VERSATIL:", 
+        "machine1":"La modularidad de nuestra tecnología permite la fácil adaptación de los tipos de olas de acuerdo a los requisitos comerciales que marque el público objetivo.",
+        "componentes":"INVISIBLE E INSONORA:",
+        "compInfo":"La máquina y su correspondiente sala de operaciones pueden invisibilizarse e insonorizarse creando un entorno armónico en el medio donde se implemente, sin contaminación visual ni sonora.",
         "main":"MANTENIMIENTO",
         "mainInfo":"La mayor parte de las piezas se localizan en una zona seca reduciendo la exposición a la corrosión y permitiendo el fácil acceso a los componentes implicados en el funcionamiento de la máquina."
         },
@@ -45,7 +46,8 @@
             "sen4":"Somos fanáticos del surf, de la tecnologia y de los desafios. Buscamos permanentemente lograr cosas impensadas contagiando ese sentimiento vehemente que nos motiva todos los días",
             "title5":"EFICIENCIA",
             "sen5":"Es la permisa fundamental bajo la cual gira nuestro día a día. Mejoramos continuamente insumos, productos, procesos, formas de hacer y pensar en pos de lograr la mejor versión de lo que hacemos."
-        },
+            },
+        
         "modulos":{
             "title1":"ABASTECIMIENTO ESTANDARIZADO:",
             "sen1":"Resignificamos insumos de industrias preexistentes, ensamblando piezas y optimizando así los tiempos de construcción.",
@@ -66,11 +68,27 @@
             "title":"ATRACCIÓN",
             "att1":"NUESTRO SISTEMA DE GENERACIÓN DE OLAS ES VERSÁTIL Y SE PUEDEN GENERAR DISTINTOS TIPOS. ES MODULAR POR LO QUE SE PUEDE ADAPTAR A DISTINTOS REQUERIMIENTOS TÉCNICOS Y COMERCIALES.",
             "att2":"LA CANTIDAD DE MÓDULOS DETERMINA EL TIEMPO DE SURFEADO.",
-            "att3":"UNA VENTAJA DE NUESTRO PRODUCTO ES QUE LA MÁQUINA PUEDE ESTAR INVISIBLE E INSONORIZADA DÁNDOLE IMPORTANCIA NO SOLO A LA CANTIDAD DE OLAS SINO TAMBIÉN AL ENTORNO"
+            "att3":"UNA VENTAJA DE NUESTRO PRODUCTO ES QUE LA MÁQUINA PUEDE ESTAR INVISIBLE E INSONORIZADA DÁNDOLE IMPORTANCIA NO SOLO A LA CANTIDAD DE OLAS SINO TAMBIÉN AL ENTORNO",
+            "1":"SALA DE MÁQUINAS",
+            "2":"RESORT",
+            "3":"SALÓN DE EVENTOS - GIMNASIO - CO WORKING GASTRONOMÍA - SURFSHOP",
+            "4":"WAKEPARK",
+            "5":"SKATEPARK",
+            "6":"ESTACIONAMIENTO SOLAR",
+            "7":"CLUB DE PLAYA",
+            "8":"ESCUELA DE SURF",
+            "9":"PARQUE INFANTIL"
         },
         "contact": {
             "location":"Cardales, Buenos Aires, Argentina",
             "copy": "Copyright © 2022, All Rights Reserved La Ola Group"
             
+        },
+        "advantages":{
+            "title1":"SOSTENIBLE:",
+            "set1":"Concebido económicamente viable.",
+            "title2":"SUSTENTABLE:",
+            "set2":"Posee consumo constante no generando picos eléctricos y por lo tanto puede utilizarse energías renovables.",
+            "set3":"LA OLA GROUP | VENTAJAS COMPETITIVAS"
         }
 }

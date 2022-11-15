@@ -55,7 +55,7 @@ const Header = () => {
     // })
 
     return (
-        <div  className=' bg-black flex w-full justify-between items-center h-28 px-4 fixed z-20'>
+        <div  className=' bg-black flex w-screen justify-between items-center h-28 px-4 fixed z-20'>
             <div>
                  <img onClick={handleNav} className={logo ? 'hidden': 'object-scale-down h-40 w-40 '} src={Logo} alt="" />
             </div>
@@ -84,12 +84,12 @@ const Header = () => {
                 <button onClick={()=> changeLanguage("es")} type="button" className="px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded-full hover:bg-gray hover:bg-opacity-10 focus:outline-none focus:ring-0 transition duration-150 ease-in-out z-20">es</button> 
             </div>
             {/* mobile menu */}
-            <div onClick={handleNav} className='md:hidden p-4'>
+            <div onClick={handleNav} className=' mr-4 mb-2 md:hidden p-4'>
                 {nav ? <AiOutlineClose style={style} 
                  size={20} className='absolute z-10'/> :  <TiThMenuOutline style={style} className='absolute z-10' /> }
             </div>
 
-            <div onClick={handleNav} className={nav ? 'absolute left-0 top-0 w-full text-white px-4 py-7 flex-col bg-black': 'absolute left-[-100%]'} >
+            <div onClick={handleNav} className={nav ? 'absolute left-0 top-0 w-screen text-white px-4 py-7 flex-col bg-black': 'absolute left-[-100%]'} >
                     <div>
                         <img className='object-scale-down h-40 w-40 ' src={Logo} alt="" />
                     </div>

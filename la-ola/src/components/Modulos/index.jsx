@@ -22,11 +22,14 @@ const Modulos = () => {
                     <span className='font-BoldItalic text-base md:text-xl'>{t("modulos.title2")}</span>
                     <p className='font-TTNormsLight text-xs md:text-base'>{t("modulos.sen2")}</p>
                   </div>
-                  <div className='p-4 md:max-w-md '>  
-                    <span className='font-BoldItalic text-base md:text-xl p-0'>{t("modulos.title3")}</span>
-                    <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li1")}</li>
-                    <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li2")}</li>
-                    <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li3")}</li>
+                  <div className='p-4 md:max-w-md  '>  
+                    <span className='font-BoldItalic text-base md:text-xl p-0' >{t("modulos.title3")}</span>
+                   
+                      <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li1")}</li>
+                      <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li2")}</li>
+                      <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li3")}</li>
+                  
+                    
                   </div>
             </div>
             <div className=' order-last mx-auto'>
@@ -42,15 +45,15 @@ const Modulos = () => {
       
       <div className=' min-w-full grid items grid-cols-3 md:p-4 md:grid-cols-2 md:justify-center justify-items-start md:hidden' >
           <div className='p-4 md:max-w-md '>  
-            <span className='font-BoldItalic text-base md:text-xl'>{t("modulos.title1")}</span>
+            <span className='font-BoldItalic text-sm sm:text-sm md:text-xl'>{t("modulos.title1")}</span>
             <p className='font-TTNormsLight text-xs md:text-base'>{t("modulos.sen1")}</p>
           </div>
           <div className='p-4 md:max-w-md'>  
-            <span className='font-BoldItalic text-base md:text-xl'>{t("modulos.title2")}</span>
+            <span className='font-BoldItalic  text-sm sm:text-sm md:text-xl'>{t("modulos.title2")}</span>
             <p className='font-TTNormsLight text-xs md:text-base'>{t("modulos.sen2")}</p>
           </div>
           <div className='p-4 md:max-w-md'>  
-            <span className='font-BoldItalic text-base md:text-xl p-0'>{t("modulos.title3")}</span>
+            <span className='font-BoldItalic  text-sm sm:text-sm md:text-xl p-0'>{t("modulos.title3")}</span>
             <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li1")}</li>
             <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li2")}</li>
             <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li3")}</li>

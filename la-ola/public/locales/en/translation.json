@@ -17,28 +17,30 @@
         "tecno2": "OVERALL THE OPERATION OF OUR WAVE GENERATING MACHINE IS REPRESENTED BY THE FOLLOWING COMPONENTS" 
     },
     "ola":{
-        "mainInfo": "Somos una empresa de tecnología Argentina que desarrolla, diseña y construye máquinas y piscinas en pos de generar olas artificiales surfeables dinámicas de una manera sostenible y sustentable en el tiempo. Nos une la pasión por el surf y el deseo de acercarlo a cualquier parte del mundo, rompiendo paradigmas y generando la posibilidad de llevar adelante un nuevo estilo de vida en lugares antes impensados.Contamos con un equipo interdisciplinario trabajando bajo la premisa de mejora continua en la búsqueda permanente de hacer realidad nuestro sueño: Olas en cualquier parte del mundo."
+        "mainInfo": "We are an Argentinean technology company that develops, designs and builds machines and pools in order to generate dynamic artificial surfable waves in a sustainable and long-lasting way. We are united by our passion for surfing and the desire to bring it to any part of the world, breaking paradigms and generating the possibility of carrying out a new lifestyle in places previously unthinkable. We have an interdisciplinary team working under the premise of continuous improvement in the permanent search to make our dream come true: Waves anywhere around the world."
     },
     "machine":{
-        "titulo":"SURF TIME", 
-        "machine1":"The quantity of modules is proportional to the surf time.",
-        "componentes":"COMPONENTS",
-        "compInfo":"90 % of the components used are standardized products utilized in different industries. Creating a high  available rate for development,assembly and maintenance.",
+        "titulo":"VERSATILE:", 
+        "machine1":"The modularity of our technology allows the easy adaptation of wave types according to the commercial requirements of the target audience.",
+        "componentes":"INVISIBLE AND SOUNDPROOF:",
+        "compInfo":"The machine and its corresponding operating room can be made invisible and soundproofed, creating a harmonious environment  where it is implemented, without visual or noise pollution.",
         "main":"MAINTENANCE",
         "mainInfo":"The majority of components are located in dry areas reducing the exposure to corrosion and allowing easy access to said components."
         },
-    "valores":{
-        "title1":"INNOVACION",
-        "sen1":"Materializamos ocurrencias. Nos motiva el aplicar disruptivamente nuevos conceptos o formas de hacer las cosas que generen una mejora sustancial.",
-        "title2":"SOSTENTIBILIDAD",
-        "sen2":"Trabajamos en pos de desarrollar un producto económicamente viable desde su construccion hasta su operación.",
-        "title3":"SUSTENTABILIDAD",
-        "sen3":"Amamos la naturaleza y todas nuestras decisiones giran bajo el principio fundamental de cuidar el medio ambiente, generando el menor impacto posible.",
-        "title4":"PASION",
-        "sen4":"Somos fanáticos del surf, de la tecnologia y de los desafios. Buscamos permanentemente lograr cosas impensadas contagiando ese sentimiento vehemente que nos motiva todos los días",
-        "title5":"EFICIENCIA",
-        "sen5":"Es la permisa fundamental bajo la cual gira nuestro día a día. Mejoramos continuamente insumos, productos, procesos, formas de hacer y pensar en pos de lograr la mejor versión de lo que hacemos."
+        
+        "valores":{
+            "title1":"INNOVATION",
+            "sen1":"We materialize occurrences. We are motivated by the disruptive application of new concepts or ways of doing things that generate a substantial improvement.",
+            "title2":"MAINTAINABILITY?",
+            "sen2":"We work towards developing an economically viable product from construction to operation.",
+            "title3":"SUSTAINABILITY",
+            "sen3":"We love nature and all our decisions are based on the fundamental principle of taking care of the environment, generating the least possible impact.",
+            "title4":"PASSION",
+            "sen4":"We are fans of surfing, technology and challenges. We constantly seek to achieve unthinkable things, spreading that passionate feeling that motivates us every day",
+            "title5":"EFFICIENCY",
+            "sen5":"It is the fundamental premise under which our daily work revolves. We continuously improve inputs, products, processes, ways of doing and thinking in pursuit of achieving the best version of what we do."
         },
+   
     "team":{
         "title":"ABOUT US",
         "team1":"THE OLA GROUP was founded with the goal to bring the surfing experience to any location in the world, creating the possibility of  a new lifestyle in areas that before were unthought-of.",
@@ -46,21 +48,37 @@
         "team3":"We have an interdisciplinary team with over 20 individuals specialized in different areas working towards making the dream that unites us come true: surfable waves anywhere in the world. "
     },
     "mission":{
-        "title":"MISIÓN ",
-        "mission1":"Acercar el surf a cualquier parte del mundo",
-        "title2":"VISIÓN",
-        "vision":"Ser la mejor experiencia de surf fuera del mar"
+        "title":"MISSION ",
+        "mission1":"Bringing surfing to any part of the world",
+        "title2":"VISION",
+        "vision":"To be the best offshore surfing experience"
     },
     "attraction":{
         "title":"ATTRACTION",
         "att1":"OUR WAVE GENERATION SYSTEM IS VERSATILE AND CAN GENERATE DIFFERENT TYPES OF WAVES. IT IS MODULAR, SO IT CAN BE ADAPTED TO DIFFERENT TECHNICAL AND COMMERCIAL REQUIREMENTS.",
         "att2":"THE QUANTITY OF MODULES DETERMINES THE LENGTH OF THE SURFABLE WAVE.",
-        "att3":"AN ADVANTAGE OF OUR PRODUCT IS THAT THE MACHINE CAN BE HIDDEN AND SOUNDPROOFED GIVING IMPORTANCE NOT ONLY TO THE AMOUNT OF WAVES BUT ALSO TO THE ENVIRONMENT."
+        "att3":"AN ADVANTAGE OF OUR PRODUCT IS THAT THE MACHINE CAN BE HIDDEN AND SOUNDPROOFED GIVING IMPORTANCE NOT ONLY TO THE AMOUNT OF WAVES BUT ALSO TO THE ENVIRONMENT.",
+        "1":"ENGINE ROOM",
+        "2":"RESORT",
+        "3":"EVENT HALL - GYM - CO WORKING GASTRONOMY - SURFSHOP",
+        "4":"WAKEPARK",
+        "5":"SKATEPARK",
+        "6":"SOLAR PARKING",
+        "7":"BEACH CLUB",
+        "8":"SURF SCHOOL",
+        "9":"CHILDREN'S PLAYGROUND"
     },
     "contact": {
         "location":"Cardales, Buenos Aires, Argentina",
         "copy": "Copyright © 2022, All Rights Reserved La Ola Group"
         
+    },
+    "advantages":{
+        "title1":"SUSTAINABLE:",
+        "set1":"Designed to be economically viable.",
+      
+        "set2":"It has constant consumption and does not generate electrical peaks and therefore renewable energies can be used.",
+        "set3":"LA OLA GROUP | COMPETITIVE ADVANTAGES"
     }
     
     
