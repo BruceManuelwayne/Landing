@@ -15,7 +15,7 @@ import Modulos from '../../components/Modulos';
 const LandingPageLayout = () => {
 
     return (
-        <div className='h-screen w-full flex flex-col '>
+        <div className='h-screen w-screen flex flex-col '>
             <Header/>
             <Main/>
             <Hero/>
