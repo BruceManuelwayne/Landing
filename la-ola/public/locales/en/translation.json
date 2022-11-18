@@ -1,11 +1,12 @@
 {
     
     "nav": {
-        "tecnologia":"Technology",
-        "quienes somos": "About us",
-        "atraccion": "Atraction",
-        "negocio":"Business", 
-        "contacto": "Contact us"
+        "tecnologia":"TECHNOLOGY",
+        "quienes somos": "ABOUT US",
+        "valores": "VALUES",
+        "negocio":"ADVANTAGES", 
+        "contacto": "CONTACT US",
+        "surfpark":"SURFPARK"
     },
     "hero":{
         "olas":"WE PROVIDE WAVES",

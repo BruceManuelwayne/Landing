@@ -21,6 +21,7 @@ const LandingPageLayout = () => {
             <Hero/>
             <Render/>
             <Valores/>
+            <Machine/>
            
             <Tech/>
             <Modulos/>

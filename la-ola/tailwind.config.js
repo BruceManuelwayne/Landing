@@ -3,6 +3,21 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': '640px',
+     
+      'md': '768px',
+      
+
+      'lg': '1024px',
+ 
+
+      'xl': '1280px',
+    
+
+      '2xl': '1536px',
+      
+    },
     extend: {
       padding:{
         '1/3': '33.33333%',
@@ -43,9 +58,11 @@ module.exports = {
       center: true,
       padding:"1rem",
       screens: {
-        lg: "1124px",
-        xl: "1124px",
-        "2xl": "1124px"
+      sm : "640px",
+      md : "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1124px"
       },
     },
   },

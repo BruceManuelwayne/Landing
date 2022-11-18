@@ -61,21 +61,25 @@ const Header = () => {
             </div>
             <ul className='hidden md:flex text-white'>
                 <li className='hover:text-gray-400'>
-                    <Link to='/home'>Home</Link>   
-                 </li>
-                 <li className='hover:text-gray-400'>
-                     <Link to='/tecnologia'>{t("nav.tecnologia")}</Link>    
+                    <Link to='/home'>HOME</Link>   
                  </li>
                  <li className='hover:text-gray-400'>    
                      <Link to='/quienes somos'>{t("nav.quienes somos")}</Link>    
+                 </li>
+                 <li className='hover:text-gray-400'>
+                     <Link to='/atraccion'>{t("nav.valores")}</Link>       
                  </li>   
                  <li className='hover:text-gray-400'>
-                     <Link to='/atraccion'>{t("nav.atraccion")}</Link>       
+                     <Link to='/tecnologia'>{t("nav.tecnologia")}</Link>    
                  </li>
+                
                  <li className='hover:text-gray-400'>
                      <Link to='/negocio'>{t("nav.negocio")}</Link>       
                  </li>
                  <li className='hover:text-gray-400'>
+                     <Link to='/surfpark'>{t("nav.surfpark")}</Link>       
+                 </li>
+                 <li className='hover:text-gray-400 text-blue-700 '>
                      <Link to='/home'>{t("nav.contacto")}</Link>       
                  </li>
             </ul>
@@ -96,21 +100,25 @@ const Header = () => {
                   
                         <ul>
                             <li className='hover:text-gray-400 border-b'>
-                                <Link to='/home'>Home</Link>   
+                                <Link to='/home'>HOME</Link>   
                             </li>
+                           <li className='hover:text-gray-400 border-b'>    
+                                <Link to='/quienes somos'>{t("nav.quienes somos")}</Link>    
+                            </li>
+                            <li className='hover:text-gray-400 border-b'>
+                                <Link to='/atraccion'>{t("nav.valores")}</Link>       
+                            </li>   
                             <li className='hover:text-gray-400 border-b'>
                                 <Link to='/tecnologia'>{t("nav.tecnologia")}</Link>    
                             </li>
-                            <li className='hover:text-gray-400 border-b'>    
-                                <Link to='/quienes somos'>{t("nav.quienes somos")}</Link>    
-                            </li>   
-                            <li className='hover:text-gray-400 border-b'>
-                                <Link to='/atraccion'>{t("nav.atraccion")}</Link>       
-                            </li>
+                            
                             <li className='hover:text-gray-400 border-b'>
                                 <Link to='/negocio'>{t("nav.negocio")}</Link>       
                             </li>
                             <li className='hover:text-gray-400 border-b'>
+                                <Link to='/surfpark'>{t("nav.surfpark")}</Link>       
+                            </li>
+                            <li className='hover:text-gray-400 border-b  text-blue-700'>
                                 <Link to='/home'>{t("nav.contacto")}</Link>       
                             </li>
                         </ul>

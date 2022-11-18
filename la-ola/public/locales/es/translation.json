@@ -1,10 +1,11 @@
 {
     "nav": {
-        "tecnologia":"Tecnologia",
-        "quienes somos": "Quienes Somos",
-        "atraccion": "Atraccion",
-        "negocio":"Negocio", 
-        "contacto": "Contacto"
+        "tecnologia":"TECNOLOGIA",
+        "quienes somos": "NOSOTROS",
+        "valores": "VALORES",
+        "negocio":"VENTAJAS", 
+        "contacto": "Contacto",
+        "surfpark":"SURFPARK"
     },
   
     "hero": {

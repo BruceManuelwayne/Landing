@@ -21,7 +21,7 @@ function Machine() {
                   className='scale-75 md:scale-100'/>
                 </div>
             </div>
-            <section id = "maintenance" className='bg-slate-50'>
+            {/* <section id = "maintenance" className='bg-slate-50'>
               <div className='container flex flex-col-reverse md:flex-row items-center px-6-mx-auto space-y-0 md:space-y-0 px-6 mx-auto mt-10 space-y.0'>
                 <div className='flex flex-col space-x-12 md:w-2/3'>
                 </div>
@@ -31,7 +31,7 @@ function Machine() {
                   <p className='max-w-md text-center md:text-right font-TTNormsLight'>{t("machine.mainInfo")} </p>
                 </div>
               </div>
-            </section>   
+            </section>    */}
       </div>
        
     </section>
