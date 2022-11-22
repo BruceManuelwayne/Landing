@@ -13,7 +13,7 @@ const Valores = () => {
 
   return (
     <>
-    <div className="bg-[url('/src/assets/valores.png')] bg-cover w-screen text-white">
+    <div className="bg-[url('/src/assets/valores.png')] bg-cover w-screen text-white" id='valores'>
     
         <div className=' grid gap-4 grid-cols-1 sm:grid-cols-1  md:grid-cols-2 grid-rows-3 p-10 md:p-20 '>
             <div className='grid grid-custom gap-x-6 justify-items-end'>

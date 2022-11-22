@@ -61,26 +61,26 @@ const Header = () => {
             </div>
             <ul className='hidden md:flex text-white md:text-sm'>
                 <li className='md:text-base hover:text-gray-400 '>
-                    <Link to='/home'>HOME</Link>   
+                    <a href='#home'>HOME</a>    
                  </li>
                  <li className=' md:text-base hover:text-gray-400'>    
-                     <Link to='/quienes somos'>{t("nav.quienes somos")}</Link>    
+                    <a href='#ola'> {t("nav.quienes somos")}</a>
                  </li>
                  <li className=' md:text-base hover:text-gray-400'>
-                     <Link to='/atraccion'>{t("nav.valores")}</Link>       
+                    <a href='#valores'>{t("nav.valores")}</a>   
                  </li>   
                  <li className=' md:text-base hover:text-gray-400'>
-                     <Link to='/tecnologia'>{t("nav.tecnologia")}</Link>    
+                     <a href='#machine'>{t("nav.tecnologia")} </a>  
                  </li>
                 
                  <li className=' md:text-base hover:text-gray-400'>
-                     <Link to='/negocio'>{t("nav.negocio")}</Link>       
+                     <a href='#ventajas'>{t("nav.negocio")}</a>  
                  </li>
                  <li className=' md:text-base hover:text-gray-400'>
-                     <Link to='/surfpark'>{t("nav.surfpark")}</Link>       
+                     <a href='#attraction'>{t("nav.surfpark")}</a>     
                  </li>
                  <li className=' md:text-base hover:text-gray-400   text-blue-400 font-bold '>
-                     <Link to='/home'>{t("nav.contacto")}</Link>       
+                     <a href='#contact'>{t("nav.contacto")}</a>      
                  </li>
             </ul>
             <div className='flex flex-col  md:space-x-4 md:flex-row space-y-2 '>
@@ -118,26 +118,26 @@ const Header = () => {
                   
                         <ul>
                             <li className='hover:text-gray-400 border-b'>
-                                <Link to='/home'>HOME</Link>   
+                                <a href='#home'>HOME</a>  
                             </li>
                            <li className='hover:text-gray-400 border-b'>    
-                                <Link to='/quienes somos'>{t("nav.quienes somos")}</Link>    
+                                <a href='#ola'> {t("nav.quienes somos")}</a>    
                             </li>
                             <li className='hover:text-gray-400 border-b'>
-                                <Link to='/atraccion'>{t("nav.valores")}</Link>       
+                                <a href='#valores'>{t("nav.valores")}</a>          
                             </li>   
                             <li className='hover:text-gray-400 border-b'>
-                                <Link to='/tecnologia'>{t("nav.tecnologia")}</Link>    
+                                <a href='#machine'>{t("nav.tecnologia")} </a>     
                             </li>
                             
                             <li className='hover:text-gray-400 border-b'>
-                                <Link to='/negocio'>{t("nav.negocio")}</Link>       
+                                <a href='#ventajas'>{t("nav.negocio")}</a>       
                             </li>
                             <li className='hover:text-gray-400 border-b'>
-                                <Link to='/surfpark'>{t("nav.surfpark")}</Link>       
+                                <a href='#attraction'>{t("nav.surfpark")}</a>       
                             </li>
                             <li className='hover:text-gray-400 border-b   text-blue-400 font-bold '>
-                                <Link to='/home'>{t("nav.contacto")}</Link>       
+                                <a href='#contact'>{t("nav.contacto")}</a>       
                             </li>
                         </ul>
                         <div className='flex justify-between my-6 p-4'>

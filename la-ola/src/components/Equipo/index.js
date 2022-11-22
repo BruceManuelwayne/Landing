@@ -10,7 +10,7 @@ function Equipo() {
     const[t] = useTranslation("translation"); 
 
   return (
-    <section id="equipo" className='bg-slade-50'>
+    <section id="ventajas" className='bg-slade-50'>
       <div className='absolute right-0  mt-56 hidden md:inline'>
           <img src={sideSvg} alt='sidedetail'/>
       </div>

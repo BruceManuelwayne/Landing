@@ -8,7 +8,7 @@ const Main = () => {
     const[t] = useTranslation("translation"); 
 
   return (
-    <div className='w-full h-screen relative'>
+    <div className='w-full h-screen relative' id='home'>
       {/* <video src={videoBg} 
         className = 'w-full h-full object-cover' 
         
