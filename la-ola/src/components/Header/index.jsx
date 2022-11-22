@@ -55,7 +55,7 @@ const Header = () => {
     // })
 
     return (
-        <div  className=' bg-black flex w-screen justify-between items-center h-28 px-4 fixed z-20  font-TTNormsLight'>
+        <div  className=' bg-black flex w-screen justify-between items-center h-24 px-4 fixed z-20  font-TTNormsLight'>
             <div>
                  <img onClick={handleNav} className={logo ? 'hidden': 'object-scale-down h-40 w-40 '} src={Logo} alt="" />
             </div>
@@ -104,7 +104,7 @@ const Header = () => {
 
             <div handleNav className={nav ? 'absolute left-0 top-0 w-screen text-white px-4 py-7 flex-col bg-black': 'absolute left-[-100%]'} >
                     <div>
-                        <img className='object-scale-down h-40 w-40 ' src={Logo} alt="" />
+                        <img className='object-scale-down h-32 w-32 ' src={Logo} alt="" />
                     </div>
                     <div class="inline-flex  justify-center p-2">
                             <button onClick={()=> changeLanguage("en")} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">

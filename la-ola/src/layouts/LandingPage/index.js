@@ -20,6 +20,7 @@ const LandingPageLayout = () => {
     return (
         <div className='h-screen w-screen flex flex-col '>
             <Header/>
+            
             <Main/>
  
             <Hero/>
