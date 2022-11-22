@@ -30,7 +30,9 @@ function Contact() {
     </div>
     <div className=' flex flex-col mb-32 space-y-12 md:w-1/2  text-blue-wave font-semibold font-TTNormsReg'> 
       {/* <ContactUs/> */}
-      <div className='rounded'>  <iframe src="https://app.fillout.com/flow/vzErqXx7Vnus?__background=rgba(14%2C%2099%2C%20171%2C%201)&__formBackground=%23fff" width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0" title="Form"> </iframe></div>
+      <div className='rounded'> 
+        <iframe src="https://app.fillout.com/flow/vzErqXx7Vnus?__background=rgba(14%2C%2099%2C%20171%2C%201)&__formBackground=%23fff" width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0" title="Form"> </iframe>
+       </div>
     
     </div>
 

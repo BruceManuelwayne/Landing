@@ -48,7 +48,10 @@ li {
   font-family:'BoldItalic';
   src:url(./assets/fonts/TT\ Norms\ Pro\ Bold Italic.otf)}
 
+html {
+  scroll-behavior: smooth;
 
+}
 
 body {
   margin: 0;
