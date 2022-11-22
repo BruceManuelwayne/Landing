@@ -14,7 +14,7 @@ const Attraction = () => {
   return (
     <section id ="attraction" className='bg-[#0e63ab] w-screen h-screen'>
         <div className='flex flex-col justify-evenly items-center p-4 text-white'>
-          <div className='flex flex-1 flex-row w-screen justify-evenly z-[3] '>
+          <div className='flex flex-1 flex-row w-screen justify-evenly z-[3] mt-12 '>
             <div className='z-[3] hidden lg:flex '><img src={whiteOla} alt='whitelogo'/></div>
             <div className=' font-extralight p-2 '>
               <ul className=''>
@@ -43,7 +43,7 @@ const Attraction = () => {
                 <p className='font-TTNormsLight text-center text-sm'>{t("attraction.att2")}</p>
                 <p className='font-TTNormsLight text-center text-sm'>{t("attraction.att3")}</p>
            </div> */}
-           <div className=' object-cover scale-80'>
+           <div className='object-cover max-w-7xl'>
             
             <img src={Surfpark} alt='Surf park full'
               className='rounded-2xl'/>
