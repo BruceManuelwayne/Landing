@@ -1,16 +1,16 @@
-import React, {useState, useRef} from 'react'; 
+import React, {useState} from 'react'; 
 import Logo from './../../assets/Logowhite.svg'; 
 import {Link} from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import Wave from 'react-wavify'; 
+
 import {AiOutlineClose} from 'react-icons/ai'; 
-import {HiOutlineMenuAlt4} from 'react-icons/hi';
+
 import {TiThMenuOutline} from 'react-icons/ti';
 import {FaFacebook} from 'react-icons/fa';
 import {FaYoutube} from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
-import { RiEnglishInput } from 'react-icons/ri';
+
 //import "./index.css";  does not work with tailwind logic.
 
 
@@ -38,11 +38,11 @@ const Header = () => {
     i18n.changeLanguage(language);
    } 
 
-    const [active, setActive] = useState(false); 
-    const onClick = () => {
-        setActive(!active);
+    // const [active, setActive] = useState(false); 
+    // const onClick = () => {
+    //     setActive(!active);
 
-    };
+    // };
 
  
     // window.addEventListener("scroll",(e) => {
@@ -55,37 +55,46 @@ const Header = () => {
     // })
 
     return (
-        <div  className=' bg-black flex w-screen justify-between items-center h-28 px-4 fixed z-20'>
+        <div  className=' bg-black flex w-screen justify-between items-center h-28 px-4 fixed z-20  font-TTNormsLight'>
             <div>
                  <img onClick={handleNav} className={logo ? 'hidden': 'object-scale-down h-40 w-40 '} src={Logo} alt="" />
             </div>
-            <ul className='hidden md:flex text-white'>
-                <li className='hover:text-gray-400'>
+            <ul className='hidden md:flex text-white md:text-sm'>
+                <li className='md:text-base hover:text-gray-400 '>
                     <Link to='/home'>HOME</Link>   
                  </li>
-                 <li className='hover:text-gray-400'>    
+                 <li className=' md:text-base hover:text-gray-400'>    
                      <Link to='/quienes somos'>{t("nav.quienes somos")}</Link>    
                  </li>
-                 <li className='hover:text-gray-400'>
+                 <li className=' md:text-base hover:text-gray-400'>
                      <Link to='/atraccion'>{t("nav.valores")}</Link>       
                  </li>   
-                 <li className='hover:text-gray-400'>
+                 <li className=' md:text-base hover:text-gray-400'>
                      <Link to='/tecnologia'>{t("nav.tecnologia")}</Link>    
                  </li>
                 
-                 <li className='hover:text-gray-400'>
+                 <li className=' md:text-base hover:text-gray-400'>
                      <Link to='/negocio'>{t("nav.negocio")}</Link>       
                  </li>
-                 <li className='hover:text-gray-400'>
+                 <li className=' md:text-base hover:text-gray-400'>
                      <Link to='/surfpark'>{t("nav.surfpark")}</Link>       
                  </li>
-                 <li className='hover:text-gray-400 text-blue-700 '>
+                 <li className=' md:text-base hover:text-gray-400   text-blue-400 font-bold '>
                      <Link to='/home'>{t("nav.contacto")}</Link>       
                  </li>
             </ul>
-            <div className='hidden md:flex p-4 space-x-4'>
+            <div className='flex flex-col  md:space-x-4 md:flex-row space-y-2 '>
+            <div class=" hidden md:inline-flex p-4">
+                <button onClick={()=> changeLanguage("en")} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
+                    Eng
+                </button>
+                <button onClick={()=> changeLanguage("es")} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
+                    Esp
+                </button>
+            </div>
+{/*                 
                 <button onClick={()=> changeLanguage("en")} type="button" className="px-6 py-2 border-2  border-white text-white font-medium text-xs leading-tight uppercase rounded-full hover:bg-gray hover:bg-opacity-10 focus:outline-none focus:ring-0 transition duration-150 ease-in-out z-20">en</button>
-                <button onClick={()=> changeLanguage("es")} type="button" className="px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded-full hover:bg-gray hover:bg-opacity-10 focus:outline-none focus:ring-0 transition duration-150 ease-in-out z-20">es</button> 
+                <button onClick={()=> changeLanguage("es")} type="button" className="px-6 py-2 border-2  border-white text-white font-medium text-xs leading-tight uppercase rounded-full hover:bg-gray hover:bg-opacity-10 focus:outline-none focus:ring-0 transition duration-150 ease-in-out z-20">es</button>  */}
             </div>
             {/* mobile menu */}
             <div onClick={handleNav} className=' mr-4 mb-2 md:hidden p-4'>
@@ -93,10 +102,19 @@ const Header = () => {
                  size={20} className='absolute z-10'/> :  <TiThMenuOutline style={style} className='absolute z-10' /> }
             </div>
 
-            <div onClick={handleNav} className={nav ? 'absolute left-0 top-0 w-screen text-white px-4 py-7 flex-col bg-black': 'absolute left-[-100%]'} >
+            <div handleNav className={nav ? 'absolute left-0 top-0 w-screen text-white px-4 py-7 flex-col bg-black': 'absolute left-[-100%]'} >
                     <div>
                         <img className='object-scale-down h-40 w-40 ' src={Logo} alt="" />
                     </div>
+                    <div class="inline-flex  justify-center p-2">
+                            <button onClick={()=> changeLanguage("en")} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
+                                Eng
+                            </button>
+                            <button onClick={()=> changeLanguage("es")} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
+                                Esp
+                            </button>
+                    </div>
+                    
                   
                         <ul>
                             <li className='hover:text-gray-400 border-b'>
@@ -118,16 +136,27 @@ const Header = () => {
                             <li className='hover:text-gray-400 border-b'>
                                 <Link to='/surfpark'>{t("nav.surfpark")}</Link>       
                             </li>
-                            <li className='hover:text-gray-400 border-b  text-blue-700'>
+                            <li className='hover:text-gray-400 border-b   text-blue-400 font-bold '>
                                 <Link to='/home'>{t("nav.contacto")}</Link>       
                             </li>
                         </ul>
-                        <div className='flex justify-between my-6'> 
+                        <div className='flex justify-between my-6 p-4'>
+                            < a href='https://www.facebook.com/laolagroup'>
                             <FaFacebook style={style} className='icon'/> 
+                            </a>
+                           
+                            <a href='https://www.youtube.com/@laolagroup9425'>
                             <FaYoutube style={style} className='icon'/>
+                            </a>
+                            <a href='https://www.instagram.com/laolagroup/?hl=es'>
                             <FaInstagram style={style} className='icon'/>
+                            </a>
+                            <a href='https://www.linkedin.com/company/la-ola-group/'>
                             <FaLinkedin style={style} className='icon'/>
+                            </a>
+                            
                         </div>
+                      
              </div>
               
             
