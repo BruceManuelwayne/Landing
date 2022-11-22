@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <section id="ola" className='bg-slate-50 w-screen'>
       <div className='w-full flex lg:hidden'>
-        <div className='absolute mt-20'>
+        <div className='absolute mt-14 sm:mt-20 '>
               <div className=' bg-blue-wave p-36 sm:p-40'>
 
               </div>
