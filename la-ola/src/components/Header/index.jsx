@@ -116,7 +116,7 @@ const Header = () => {
                     </div>
                     
                   
-                        <ul>
+                        <ul  onClick={handleNav} >
                             <li className='hover:text-gray-400 border-b'>
                                 <a href='#home'>HOME</a>  
                             </li>
