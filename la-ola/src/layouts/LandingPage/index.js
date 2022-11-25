@@ -12,14 +12,15 @@ import Main from '../../components/Main';
 import Render from '../../components/Render';
 import Valores from '../../components/Valores';
 import Modulos from '../../components/Modulos';
-import { Fade } from 'react-awesome-reveal';
+
  
 
 const LandingPageLayout = () => {
 
     return (
-        <Fade triggerOnce cascade damping={0.8}>
-            <div className='h-screen w-screen flex flex-col '>
+       
+        <div className='h-screen w-screen flex flex-col '>
+        
         <Header/>
      
         <Main/>
@@ -44,7 +45,7 @@ const LandingPageLayout = () => {
      
           
         </div>
-        </Fade>
+  
         
         
     );

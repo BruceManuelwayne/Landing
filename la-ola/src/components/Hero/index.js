@@ -11,7 +11,7 @@ export default function Hero() {
   const[t] = useTranslation("translation"); 
   
   return (
-    <Fade triggerOnce>
+    <Fade triggerOnce delay={2000}>
     <section id="ola" className='bg-slate-50 w-screen'>
     
       <div className='w-full flex lg:hidden'>
@@ -27,16 +27,17 @@ export default function Hero() {
                 <img src = {foto} alt='mini slab'/>
             </div>
           </div>
-       
+          <Fade triggerOnce>
           <div className='flex flex-row md:flex-col md:mt-24 p-2 '>
-                <Fade triggerOnce cascade>
+                
                 <img src = {logo} className='object-scale-down relative h-24 w-24 pb-11 md:pb-0' alt=''/> 
           
              
               
               <p className='max-w-prose text-justify pr-10 md:pr-2 p-2 pt-8 md:text-left md:pt-2 md:text-lg font-TTNormsLight'>{t("ola.mainInfo")} </p>
-              </Fade>
+            
             </div>
+            </Fade>
         
         </div>
       </div>

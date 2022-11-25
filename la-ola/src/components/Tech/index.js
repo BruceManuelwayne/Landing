@@ -18,25 +18,31 @@ const Tech = () => {
   <Fade triggerOnce>
   <div className='bg-blue-wave w-screen flex flex-wrap flex-col '> 
     <div className=' bg-slate-50 flex flex-col md:flex-row-reverse lg:flex-row-reverse items-center md:justify-evenly text-center md:text-left'>
-    
+   
       <div className='p-10 md:p-14 w-screen font-TTNormsLight text-sm sm:text-base lg:text-lg md:max-w-fit'>
-        {t("tech.tecno1")}
+        <Fade>{t("tech.tecno1")}</Fade>
       </div>
+      
+  <Fade/>
+  
       <div className='p-5 md:p-20'>
-        <img className='w-52 md:w-96 '
-          src={Logo} alt='LogoLaOlaAzul'/>
+       <Fade triggerOnce> <img className='w-52 md:w-96 '
+          src={Logo} alt='LogoLaOlaAzul'/></Fade>
       </div>
     </div>
+    
+   
     <div className='p-10  bg-blue-wave'>
     <div className=''>
      
-        <img src={Dibujo} alt='Dibujo'/>
+    <Fade triggerOnce><img src={Dibujo} alt='Dibujo'/>  </Fade>
        
       </div>
 
     </div>
+  
   </div>
-  </Fade>
+ </Fade>
   
        
    
