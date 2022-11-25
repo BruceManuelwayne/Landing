@@ -15,7 +15,7 @@ const Tech = () => {
 } 
 
   return (
-  <Fade cascade triggerOnce>
+  <Fade triggerOnce>
   <div className='bg-blue-wave w-screen flex flex-wrap flex-col '> 
     <div className=' bg-slate-50 flex flex-col md:flex-row-reverse lg:flex-row-reverse items-center md:justify-evenly text-center md:text-left'>
     
@@ -29,7 +29,9 @@ const Tech = () => {
     </div>
     <div className='p-10  bg-blue-wave'>
     <div className=''>
+      <Fade triggerOnce>
         <img src={Dibujo} alt='Dibujo'/>
+        </Fade>
       </div>
 
     </div>

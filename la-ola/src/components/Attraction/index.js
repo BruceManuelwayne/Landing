@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Surfpark from './../../assets/surfpark1.png';
 import whiteOla from './../../assets/whiteOla.svg';
-
+import {Fade} from 'react-awesome-reveal';
 
 const Attraction = () => {
 
@@ -12,6 +12,7 @@ const Attraction = () => {
 } 
 
   return (
+    <Fade triggerOnce>
     <section id ="attraction" className='bg-[#0e63ab] w-screen h-screen'>
         <div className='flex flex-col justify-evenly items-center p-4 text-white'>
           <div className='flex flex-1 flex-row w-screen justify-evenly z-[3] mt-12 '>
@@ -53,6 +54,7 @@ const Attraction = () => {
         </div>
         
     </section>
+    </Fade>
   )
 }
 
