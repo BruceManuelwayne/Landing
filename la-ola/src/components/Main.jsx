@@ -3,6 +3,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next';
 import keepWet from './../assets/keepwet.png';
 import screenShot from './../assets/screenShot.png'; 
+import {Slide} from 'react-awesome-reveal'; 
 
 
 const Main = () => {
@@ -19,18 +20,25 @@ const Main = () => {
         loop
        
       />  */}
+    
       <div className='bg-black absolute pl-5 pr-5 pb-2 inset-x-0 bottom-0 w-full h-50 z-10 '> 
         <div className='bg-black w-full flex flex-row space-x-3 justify-around items-center '>
             <div className=' bg-black  h-full flex flex-col space-y-0 mt-3 w-1/2 '>
-                <h1 className=' bg-black font-ExtraBlack  text-xs sm:text-xs  md:ml-6 md:text-lg lg:text-2xl xl:text-3xl font-CustomOla  text-white' >{t("hero.olas")}</h1>
+              <Slide triggerOnce direction='right'>
+              <h1 className=' bg-black font-ExtraBlack  text-xs sm:text-xs  md:ml-6 md:text-lg lg:text-2xl xl:text-3xl font-CustomOla  text-white' >{t("hero.olas")}</h1>
                 <h1 className=' bg-black font-ExtraBlack  text-xs sm:text-xs  md:ml-6 md:text-lg lg:text-2xl xl:text-3xl text-white font-CustomOla'>{t("hero.olas2")}</h1>
+              </Slide>
+                
             </div>
             <div className='bg-black w-1/2 '>
-               <img className=' object-contain scale-75' src={keepWet} alt="" />
+              <Slide triggerOnce direction='left'>    <img className=' object-contain scale-75' src={keepWet} alt="" /> </Slide>
+           
             </div>
         </div>
 
       </div>
+      
+      
       
       
         {/* <video src={videoBg}  loop muted/>

@@ -5,6 +5,8 @@ import Logo from '../../assets/laolagroupazul.svg'
 
 import Dibujo from '../../assets/dibujo.svg'
 
+import {Fade} from 'react-awesome-reveal'; 
+
 const Tech = () => {
 
   const {t, i18n} = useTranslation();
@@ -13,6 +15,7 @@ const Tech = () => {
 } 
 
   return (
+  <Fade cascade triggerOnce>
   <div className='bg-blue-wave w-screen flex flex-wrap flex-col '> 
     <div className=' bg-slate-50 flex flex-col md:flex-row-reverse lg:flex-row-reverse items-center md:justify-evenly text-center md:text-left'>
     
@@ -31,6 +34,7 @@ const Tech = () => {
 
     </div>
   </div>
+  </Fade>
   
        
    

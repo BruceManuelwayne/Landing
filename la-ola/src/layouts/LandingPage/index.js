@@ -12,30 +12,40 @@ import Main from '../../components/Main';
 import Render from '../../components/Render';
 import Valores from '../../components/Valores';
 import Modulos from '../../components/Modulos';
-
-
+import { Fade } from 'react-awesome-reveal';
+ 
 
 const LandingPageLayout = () => {
 
     return (
-        <div className='h-screen w-screen flex flex-col '>
-            <Header/>
-            
-            <Main/>
- 
-            <Hero/>
-            <Hero2/>
-            <Render/>
-            <Valores/>
-            <Machine/>
-           
-            <Tech/>
-            <Modulos/>
+        <Fade triggerOnce cascade damping={0.8}>
+            <div className='h-screen w-screen flex flex-col '>
+        <Header/>
+     
+        <Main/>
+          <Hero/>
+          <Hero2/>
+          <Render/>
+          <Valores/>
+        
           
-            <Equipo/>
-            <Attraction/>
-            <Contact/>
+          
+         
+  
+          <Machine/>
+      
+          <Tech/>
+          <Modulos/>
+      
+          <Equipo/>
+          <Attraction/>
+          <Contact/>
+
+     
+          
         </div>
+        </Fade>
+        
         
     );
 };

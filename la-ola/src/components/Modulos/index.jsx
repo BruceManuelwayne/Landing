@@ -4,12 +4,14 @@ import Slider from '../Slider/index';
 import {SliderData} from '../Slider/SliderData';
 
 import ModulosSvg from '../../assets/modulos/modulos.svg';
+import {Fade} from 'react-awesome-reveal';
 
 
 const Modulos = () => {
   const[t] = useTranslation("translation"); 
 
   return (
+    <Fade triggerOnce>
     <div className="bg-[url('/src/assets/backgroundModulos.png')] bg-cover w-screen h-screen object-fill text-white">
       <div className='hidden md:inline-grid w-screen h-screen'>
         <div className='p-4 grid grid-cols-2 w-screen items-center '>
@@ -70,6 +72,7 @@ const Modulos = () => {
         
        
     </div>
+    </Fade>
   )
 }
 

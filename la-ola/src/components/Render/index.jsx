@@ -1,9 +1,11 @@
 import React from 'react'
 import background from '../../assets/Hero.png'
+import {Fade} from 'react-awesome-reveal';
 
 const Render = () => {
   return (
-    <div className='flex w-screen   items-center justify-center bg-black mx-auto' >
+    <Fade triggerOnce duration={2000}>
+        <div className='flex w-screen   items-center justify-center bg-black mx-auto' >
       <div className=''>
         <img className=''
           src={background}
@@ -18,6 +20,8 @@ const Render = () => {
       
 
     </div>
+    </Fade>
+  
   )
 }
 

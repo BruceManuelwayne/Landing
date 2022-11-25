@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Doodle from './../../assets/doodle.svg';
-
+import {Fade} from 'react-awesome-reveal';
 
 function Machine() {
     const[t] = useTranslation("translation"); 
@@ -11,10 +11,12 @@ function Machine() {
 
         <div className='container pb-2 flex flex-col-reverse md:flex-row items-center px-6-mx-auto-mt-10 space-y-0 md:space-y-0 px-6 mx-auto mt-10 space-y.0'>
                 <div className='flex flex-col mb-32 space-y-8 md:w-2/3 text-white font-TTNormsReg'>
+                  <Fade direction='left' cascade>
                     <h1 className='max-w-md  text-center font-BoldItalic text-base md:text-3xl  md:text-left'>{t("machine.titulo")}</h1>
                     <p className='max-w-sm text-center md:text-left  font-TTNormsLight'>{t("machine.machine1")} </p>
                     <h1 className='max-w-md  text-center font-BoldItalic text-base md:text-3xl  md:text-left '>{t("machine.componentes")}</h1>
                     <p className='max-w-sm text-center md:text-left font-TTNormsLight'>{t("machine.compInfo")} </p> 
+                  </Fade> 
                 </div> 
                 <div className='flex flex-col mb-32 pl-2 space-y-8 md:w-2/3 align-middle'>
                   <img src={Doodle} alt='Doodle'
