@@ -31,7 +31,7 @@ const Main = () => {
                 
             </div>
             <div className='bg-black w-1/2 '>
-              <Fade triggerOnce delay={1000} direction='left'>    <img className=' object-contain scale-75' src={keepWet} alt="" /> </Fade>
+              <Fade triggerOnce delay={1000} direction='left'>    <img className=' object-contain scale-80' src={keepWet} alt="" /> </Fade>
            
             </div>
         </div>
