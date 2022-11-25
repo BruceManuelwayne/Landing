@@ -14,7 +14,7 @@
     },
     "tech": {
         "titulo":"TECHNOLOGY",
-        "tecno1":"El principio de funcionamiento de nuestra tecnología se basa en la generación de ondas mediante la inyección de agua impulsada por la expansión de aire a presión. Las ondas viajan por una pileta específicamente construída con distintos cambios de profundidad que provocan las denominadas rompientes y las correspondientes olas. Mediante el control preciso de todas las variables del proceso logramos una inmensa variedad de olas en tamaños, formas y estilos adaptables a los distintos niveles de surf y por consecuencia necesidades comerciales.", 
+        "tecno1":"The working principle of our technology is based on the generation of waves through the injection of water driven by the expansion of pressurized air. The waves travel through a specifically constructed pool with different depth changes that cause the wave to break. By precisely controlling all the variables of the process we achieve an immense variety of waves in sizes, shapes and styles adaptable to different surfing levels and therefore commercial needs.", 
         "tecno2": "OVERALL THE OPERATION OF OUR WAVE GENERATING MACHINE IS REPRESENTED BY THE FOLLOWING COMPONENTS" 
     },
     "ola":{
@@ -32,7 +32,7 @@
         "valores":{
             "title1":"INNOVATION",
             "sen1":"We materialize occurrences. We are motivated by the disruptive application of new concepts or ways of doing things that generate a substantial improvement.",
-            "title2":"MAINTAINABILITY?",
+            "title2":"MAINTAINABILITY",
             "sen2":"We work towards developing an economically viable product from construction to operation.",
             "title3":"SUSTAINABILITY",
             "sen3":"We love nature and all our decisions are based on the fundamental principle of taking care of the environment, generating the least possible impact.",
@@ -73,6 +73,16 @@
         "location":"Cardales, Buenos Aires, Argentina",
         "copy": "Copyright © 2022, All Rights Reserved La Ola Group"
         
+    },
+    "modulos":{
+        "title1":"STANDARDIZED SUPPLY:",
+        "sen1":"We re-signify inputs from pre-existing industries, assembling parts and thus optimizing construction times.",
+        "title2":"TECNOLOGIA MODULAR:",
+        "sen2":"La máquina se estructura modularmente de manera que variando la cantidad o la dimensión de sus componentes se obtienen distintos productos resultantes y consecuentemente distinta inversión inicial requerida.",
+        "title3":"DIVISION DE COSTOS",
+        "li1":"Tamaño de Ola = Dimensión de los tubos",
+        "li2":"Duración de la Ola = Cantidad de tubos",
+        "li3":"Frecuencia de Generación = Dimensión de compresores de aire"
     },
     "advantages":{
         "title1":"SUSTAINABLE:",
