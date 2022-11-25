@@ -11,7 +11,9 @@ export default function Hero() {
   const[t] = useTranslation("translation"); 
   
   return (
+    <Fade triggerOnce>
     <section id="ola" className='bg-slate-50 w-screen'>
+    
       <div className='w-full flex lg:hidden'>
         <div className='absolute'>
               <div className=' bg-blue-wave p-36 sm:p-40'>
@@ -38,7 +40,7 @@ export default function Hero() {
         
         </div>
       </div>
-
+     
       <div className='hidden lg:inline xl:hidden'>
         <div className='flex flex-nowrap '>
             <div className='absolute mt-16'>
@@ -76,8 +78,10 @@ export default function Hero() {
             </div>
           </div>
      </div>
+
     
     </section>
+    </Fade>
   )
 }
 

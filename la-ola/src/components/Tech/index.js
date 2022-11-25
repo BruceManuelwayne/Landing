@@ -29,9 +29,9 @@ const Tech = () => {
     </div>
     <div className='p-10  bg-blue-wave'>
     <div className=''>
-      <Fade triggerOnce>
+     
         <img src={Dibujo} alt='Dibujo'/>
-        </Fade>
+       
       </div>
 
     </div>
