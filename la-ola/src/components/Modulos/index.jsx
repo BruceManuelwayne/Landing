@@ -12,10 +12,11 @@ const Modulos = () => {
 
   return (
     <Fade triggerOnce>
-    <div className="bg-[url('/src/assets/backgroundModulos.png')] bg-cover w-screen h-[80vh] md:h-screen  object-fill text-white">
+    <div className="bg-[url('/src/assets/backgroundModulos.png')] bg-cover w-screen h-[100vh]  lg:h-[90vh] md:h-screen  object-fill text-white">
       <div className='hidden md:inline-grid w-screen h-screen'>
         <div className='p-4 grid grid-cols-2 w-screen items-center '>
           <div className=' mx-auto'>
+            <Fade triggerOnce cascade direction='left'>
             <div className='p-4 md:max-w-md'>  
                     <span className='font-BoldItalic text-base md:text-xl'>{t("modulos.title1")}</span>
                     <p className='font-TTNormsLight text-xs md:text-base'>{t("modulos.sen1")}</p>
@@ -33,19 +34,21 @@ const Modulos = () => {
                   
                     
                   </div>
+                  </Fade>
             </div>
             <div className=' order-last mx-auto'>
-                <img src ={ModulosSvg} 
+                <Fade triggerOnce direction='right'><img src ={ModulosSvg} 
                 className='md:scale-90'
-                alt='modulos'/>
+                alt='modulos'/></Fade>
             </div>
            
           </div>
          
       
       </div>
-      
+      <Fade triggerOnce>
       <div className='min-w-full gap-1 grid items p-2 grid-rows-3 md:hidden' >
+        <Fade cascade triggerOnce direction='left'>
           <div className='p-3 md:max-w-md '>  
             <span className='font-BoldItalic text-xs sm:text-sm md:text-xl'>{t("modulos.title1")}</span>
             <p className='font-TTNormsLight text-xs md:text-base'>{t("modulos.sen1")}</p>
@@ -66,7 +69,9 @@ const Modulos = () => {
           <div className='md:hidden'>
             <Slider slides={SliderData} />
           </div>
+          </Fade>
         </div>
+        </Fade>
        
       
         

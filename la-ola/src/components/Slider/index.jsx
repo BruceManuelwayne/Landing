@@ -29,7 +29,7 @@ const Slider = ({ slides }) => {
             key={index}
             className={
               index === current
-                ? 'opacity-[1] ease-in duration-1000'
+                ? 'opacity-[1] ease-in-out duration-1000'
                 : 'opacity-0'
             }
           >
@@ -40,7 +40,7 @@ const Slider = ({ slides }) => {
               />
               {index === current && (
                 <img src={slide.image} alt='alt'
-                className=' object-cover' />
+                className=' object-contain' />
                 )}
     
               <FaArrowCircleRight
