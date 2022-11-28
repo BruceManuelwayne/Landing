@@ -1,5 +1,5 @@
 import React from 'react'
-//import videoBg from '../assets/VideoBackground.mp4';
+import videoBg from '../assets/VideoBackground.mp4';
 import { useTranslation } from 'react-i18next';
 import keepWet from './../assets/keepwet.png';
 import screenShot from './../assets/screenShot.png'; 
@@ -13,18 +13,19 @@ const Main = () => {
 
   return (
     <div>
-    <div className='md:w-full md:h-screen relative' id='home'>
+    <div className=' h-[75vh] md:w-full md:h-screen relative' id='home'>
       <img src={screenShot} alt='' className='w-full h-full object-cover'/>
 
-      {/* <video src={videoBg} 
+       {/* <video src={videoBg} 
         className = 'w-full h-full object-fill md:object-cover ' 
         autoPlay
         muted
+        loop
         
        
-      />  */}
-    
-      <div className='bg-black absolute pl-5 pr-5 pb-2 inset-x-0 bottom-0 w-full h-50 z-10 '> 
+      />  
+     */}
+      <div className='bg-black absolute pt-10 pl-5 pr-5 pb-2 inset-x-0 bottom-0 w-full h-50 z-10  lg:pt-2'> 
         <div className='bg-black w-full flex flex-row space-x-3 justify-around items-center '>
             <div className=' bg-black  h-full flex flex-col space-y-0 mt-3 w-1/2 '>
               <Fade triggerOnce delay={1000} direction='right'>
