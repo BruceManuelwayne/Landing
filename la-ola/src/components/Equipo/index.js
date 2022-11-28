@@ -24,9 +24,9 @@ function Equipo() {
            <div className='flex flex-shrink'>
             <img src={Render} alt='ParkRender'/> 
            </div>
-          <Fade cascade>
+          <Fade cascade triggerOnce>
            <div className='flex flex-col space-y-4  md:w-2/3 font-TTNormsReg text-[#0E63AB] font-semibold '>{t("advantages.title1")}
-           <Fade direction='right' cascade>
+           <Fade direction='right' triggerOnce  cascade>
             <div className='font-TTNormsLight text-black'>{t("advantages.set1")}</div>
             <div className='font-TTNormsReg text-[#0E63AB] font-semibold'>{t("advantages.title2")}</div>
             <div className='font-TTNormsLight text-black '>{t("advantages.set2")}</div>

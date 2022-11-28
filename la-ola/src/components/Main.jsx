@@ -4,12 +4,15 @@ import { useTranslation } from 'react-i18next';
 import keepWet from './../assets/keepwet.png';
 import screenShot from './../assets/screenShot.png'; 
 import {Fade} from 'react-awesome-reveal'; 
+import Hero from '../components/Hero';
+import Hero2 from '../components/Hero2';
 
 
 const Main = () => {
     const[t] = useTranslation("translation"); 
 
   return (
+    <div>
     <div className='w-full h-screen relative' id='home'>
       <img src={screenShot} alt='' className='w-full h-full object-cover'/>
 
@@ -17,7 +20,7 @@ const Main = () => {
         className = 'w-full h-full object-cover' 
         autoPlay
         muted
-        loop
+        
        
       />  */}
     
@@ -52,6 +55,9 @@ const Main = () => {
             </div>
         </div> */}
         
+    </div>
+    <Hero/>  
+    <Hero2/>
     </div>
   )
 }
