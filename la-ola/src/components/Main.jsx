@@ -1,5 +1,5 @@
 import React from 'react'
-import videoBg from '../assets/VideoBackground.mp4';
+//import videoBg from '../assets/VideoBackground.mp4';
 import { useTranslation } from 'react-i18next';
 import keepWet from './../assets/keepwet.png';
 import screenShot from './../assets/screenShot.png'; 
