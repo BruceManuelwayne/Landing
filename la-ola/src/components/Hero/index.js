@@ -11,7 +11,7 @@ export default function Hero() {
   const[t] = useTranslation("translation"); 
   
   return (
-    <Fade triggerOnce delay={4000}>
+    <Fade triggerOnce delay={2500}>
     <section id="ola" className='bg-slate-50 w-screen'>
     
       <div className='w-full flex lg:hidden'>
