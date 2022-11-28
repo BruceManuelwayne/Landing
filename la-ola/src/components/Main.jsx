@@ -13,11 +13,11 @@ const Main = () => {
 
   return (
     <div>
-    <div className='w-full h-screen relative' id='home'>
+    <div className='md:w-full md:h-screen relative' id='home'>
       <img src={screenShot} alt='' className='w-full h-full object-cover'/>
 
       {/* <video src={videoBg} 
-        className = 'w-full h-full object-cover' 
+        className = 'w-full h-full object-fill md:object-cover ' 
         autoPlay
         muted
         
