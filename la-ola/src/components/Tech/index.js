@@ -15,7 +15,7 @@ const Tech = () => {
 } 
 
   return (
-  <Fade triggerOnce >
+  <Fade triggerOnce fraction={0.6} >
   <div className='bg-blue-wave w-screen flex flex-wrap flex-col '> 
     <div className=' bg-slate-50 flex flex-col md:flex-row-reverse lg:flex-row-reverse items-center md:justify-evenly text-center md:text-left'>
    
