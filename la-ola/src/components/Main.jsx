@@ -29,8 +29,8 @@ const Main = () => {
         <div className='bg-black w-full flex flex-row space-x-3 justify-around items-center '>
             <div className=' bg-black  h-full flex flex-col space-y-0 mt-3 w-1/2 '>
               <Fade triggerOnce delay={1000} direction='right'>
-              <h1 className=' bg-black font-ExtraBlack  text-xs sm:text-xs  md:ml-6 md:text-lg lg:text-2xl xl:text-3xl font-CustomOla  text-white' >{t("hero.olas")}</h1>
-                <h1 className=' bg-black font-ExtraBlack  text-xs sm:text-xs  md:ml-6 md:text-lg lg:text-2xl xl:text-3xl text-white font-CustomOla'>{t("hero.olas2")}</h1>
+              <h1 className=' bg-black font-ExtraBlack  text-xs sm:text-xs  md:ml-6 md:text-lg lg:text-2xl xl:text-3xl font-BoldItalic  text-white' >{t("hero.olas")}</h1>
+                <h1 className=' bg-black font-ExtraBlack  text-xs sm:text-xs  md:ml-6 md:text-lg lg:text-2xl xl:text-3xl text-white font-BoldItalic'>{t("hero.olas2")}</h1>
               </Fade>
                 
             </div>

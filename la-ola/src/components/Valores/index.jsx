@@ -64,7 +64,7 @@ const Valores = () => {
                 </div>
             </div>
            
-            <div className='w-full h-32'>
+            <div className='w-full h-32 hidden md:inline-grid'>
                 <img className='mx-auto align-baseline ' src={logo} alt='whiteLogo'/>
             </div>
             </Fade>

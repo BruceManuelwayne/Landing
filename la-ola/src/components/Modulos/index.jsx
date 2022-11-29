@@ -12,7 +12,7 @@ const Modulos = () => {
 
   return (
     <Fade triggerOnce>
-    <div className="bg-[url('/src/assets/backgroundModulos.png')] bg-cover w-screen h-[100vh]  lg:h-[90vh] md:h-screen  object-fill text-white">
+    <div className="bg-[url('/src/assets/backgroundModulos.png')] bg-cover w-screen h-[100vh]  lg:h-[110vh] md:h-screen  object-fill text-white">
       <div className='hidden md:inline-grid w-screen h-screen'>
         <div className='p-4 grid grid-cols-2 w-screen items-center '>
           <div className=' mx-auto'>
@@ -38,7 +38,7 @@ const Modulos = () => {
             </div>
             <div className=' order-last mx-auto'>
                 <Fade triggerOnce direction='right'><img src ={ModulosSvg} 
-                className='md:scale-90'
+                className='md:scale-75'
                 alt='modulos'/></Fade>
             </div>
            
