@@ -12,7 +12,7 @@ function Equipo() {
 
   return(
   <Fade triggerOnce>
-    <section id="ventajas" className='bg-slade-50'>
+    <section id="ventajas" className='bg-slade-50 w-screen'>
     
       <div className='absolute right-0  mt-56 hidden md:inline'>
    

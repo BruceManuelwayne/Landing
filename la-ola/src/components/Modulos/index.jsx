@@ -25,15 +25,7 @@ const Modulos = () => {
                     <span className='font-BoldItalic text-base md:text-xl'>{t("modulos.title2")}</span>
                     <p className='font-TTNormsLight text-xs md:text-base'>{t("modulos.sen2")}</p>
                   </div>
-                  <div className='p-4 md:max-w-md  '>  
-                    <span className='font-BoldItalic text-base md:text-xl p-0' >{t("modulos.title3")}</span>
-                   
-                      <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li1")}</li>
-                      <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li2")}</li>
-                      <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li3")}</li>
-                  
-                    
-                  </div>
+                 
                   </Fade>
             </div>
             <div className=' order-last mx-auto'>
@@ -57,12 +49,7 @@ const Modulos = () => {
             <span className='font-BoldItalic  text-xs sm:text-sm md:text-xl'>{t("modulos.title2")}</span>
             <p className='font-TTNormsLight text-xs md:text-base'>{t("modulos.sen2")}</p>
           </div>
-          <div className='p-3 md:max-w-md'>  
-            <span className='font-BoldItalic text-xs sm:text-sm md:text-xl'>{t("modulos.title3")}</span>
-            <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li1")}</li>
-            <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li2")}</li>
-            <li className='font-TTNormsLight text-xs md:text-base p-0'>{t("modulos.li3")}</li>
-          </div>
+         
           <div className='hidden sm:hidden md:inline-flex md:order-4 md:col-span-2'>
             <img src ={ModulosSvg} alt='modulos'/>
           </div>

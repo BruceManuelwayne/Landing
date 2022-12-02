@@ -9,6 +9,7 @@
         "surfpark":"SURFPARK"
     },
     "hero":{
+        "olas1":"WE PROVIDE WAVES TO ANY LOCATION IN THE WORLD",
         "olas":"WE PROVIDE WAVES",
         "olas2":"TO ANY LOCATION IN THE WORLD"  
     },
@@ -75,14 +76,14 @@
         
     },
     "modulos":{
-        "title1":"STANDARDIZED SUPPLY:",
-        "sen1":"We re-signify inputs from pre-existing industries, assembling parts and thus optimizing construction times.",
-        "title2":"TECNOLOGIA MODULAR:",
-        "sen2":"La máquina se estructura modularmente de manera que variando la cantidad o la dimensión de sus componentes se obtienen distintos productos resultantes y consecuentemente distinta inversión inicial requerida.",
-        "title3":"DIVISION DE COSTOS",
-        "li1":"Tamaño de Ola = Dimensión de los tubos",
-        "li2":"Duración de la Ola = Cantidad de tubos",
-        "li3":"Frecuencia de Generación = Dimensión de compresores de aire"
+        "title1":"STAMDARD SUPPLY:",
+        "sen1":"We repurpose supplies from preexisting industries, assembling standard components to optimize our construction times.",
+        "title2":"MODULAR TECHNOLOGY:",
+        "sen2":"The machine has a modular structure, so that one only needs to change the amount or size of its components to obtain varied products suitable to different budgets.",
+        "title3":"COST BREAKDOWN",
+        "li1":"Wave height = Cannon size",
+        "li2":"Wave duration = Amount of cannons",
+        "li3":"Wave frequency = Compressor capacity"
     },
     "advantages":{
         "title1":"SUSTAINABLE:",

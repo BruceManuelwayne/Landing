@@ -70,7 +70,7 @@ const Header = () => {
                     <a href='#valores'>{t("nav.valores")}</a>   
                  </li>   
                  <li className=' md:text-base hover:text-gray-400'>
-                     <a href='#machine'>{t("nav.tecnologia")} </a>  
+                     <a href='#tech'>{t("nav.tecnologia")} </a>  
                  </li>
                 
                  <li className=' md:text-base hover:text-gray-400'>

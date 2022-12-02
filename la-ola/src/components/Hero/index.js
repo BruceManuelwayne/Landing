@@ -2,21 +2,21 @@
 import React from 'react'; 
 import { useTranslation } from 'react-i18next';
 
-import foto from './../../assets/slabCity.png';
+import foto from './../../assets/LAOLA-127.png';
 import logo from './../../assets/logoola.svg';
-import {  Fade,Slide } from 'react-awesome-reveal';
+import {  Fade, } from 'react-awesome-reveal';
 
 
 export default function Hero() {
   const[t] = useTranslation("translation"); 
   
   return (
+    <>
     <Fade triggerOnce delay={2500}>
     <section id="ola" className='bg-slate-50 w-screen'>
-    
       <div className='w-full flex lg:hidden'>
         <div className='absolute'>
-              <div className=' bg-blue-wave p-36 sm:p-40'>
+              <div className='bg-blue-wave p-40 sm:p-40'>
 
               </div>
           </div>
@@ -44,8 +44,8 @@ export default function Hero() {
      
       <div className='hidden lg:inline xl:hidden'>
         <div className='flex flex-nowrap '>
-            <div className='absolute mt-16'>
-              <div className=' bg-blue-wave flex shrink p-64'></div>
+            <div className='absolute'>
+              <div className=' bg-blue-wave flex shrink p-52'></div>
             </div>
             <div className='h-auto w-auto flex-auto'>
                 <img src = {foto} className='h-max-w-lg object-cover sm: scale-50 md:scale-75 lg:scale-80' alt=''/>
@@ -62,10 +62,11 @@ export default function Hero() {
      </div>
      
      <div className='hidden xl:inline'>
+    
         <div className='flex flex-nowrap '>
-            <div className='absolute'>
-              <div className=' bg-blue-wave flex shrink p-96'></div>
-            </div>
+        <div className='absolute'>
+              <div className=' bg-blue-wave flex grow p-72'></div>
+        </div>
             <div className='h-auto w-auto flex-auto'>
                 <img src = {foto} className='h-max-w-lg object-cover sm: scale-50 md:scale-75 lg:scale-80' alt=''/>
             </div>
@@ -83,6 +84,7 @@ export default function Hero() {
     
     </section>
     </Fade>
+    </>
   )
 }
 

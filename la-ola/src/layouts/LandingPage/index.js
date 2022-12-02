@@ -21,11 +21,11 @@ const LandingPageLayout = () => {
         <div className='h-screen w-screen flex flex-col '>
           <Header/>
           <Main/>
-         
-          <Render/>
           <Valores/>
+          <section id='tech'>
+            <Tech/>
+          </section>
           <Machine/>
-          <Tech/>
           <Modulos/>
           <Equipo/>
           <Attraction/>

@@ -8,7 +8,7 @@ function Machine() {
 
   return (
    
-    <section id="machine" className='bg-[#0E63AB] w-screen	'>
+    <section id="machine" className='bg-[#0E63AB] w-screen'>
        <Fade triggerOnce fraction={0.5} >
         <div className='container pb-2 flex flex-col-reverse md:flex-row items-center px-6-mx-auto-mt-10 space-y-0 md:space-y-0 px-6 mx-auto mt-10 space-y.0'>
                 <div className='flex flex-col mb-32 space-y-8 md:w-2/3 text-white font-TTNormsReg'>

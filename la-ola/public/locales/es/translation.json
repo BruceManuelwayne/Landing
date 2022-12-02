@@ -9,8 +9,9 @@
     },
   
     "hero": {
-        "olas":"LLEVAMOS EL SURF A ",
-        "olas2":"CUALQUIER PARTE DEL MUNDO",
+        "olas1":"LLEVAMOS EL SURF A CUALQUIER PARTE DEL MUNDO",
+        "olas":"LLEVAMOS EL SURF A CUALQUIER ",
+        "olas2":"PARTE DEL MUNDO",
         "conocenos": "CONOCENOS"
     },
     "tech": {

@@ -13,7 +13,7 @@ const Attraction = () => {
 
   return (
     <Fade triggerOnce>
-    <section id ="attraction" className='bg-[#0e63ab] w-screen h-[60vh] md:h-screen xl:h-[110vh]'>
+    <section id ="attraction" className='bg-[#0e63ab] w-screen h-[60vh] md:h-screen xl:h-[120vh]'>
         {/* <div className='flex flex-col justify-evenly items-center p-4 text-white'>
           <div className='flex flex-1 flex-row w-screen justify-evenly z-[3] mt-12 '>
             <div className='z-[3] hidden lg:flex '><img src={whiteOla} alt='whitelogo'/></div>
@@ -37,9 +37,10 @@ const Attraction = () => {
                 <p className='font-TTNormsLight text-center text-sm'>{t("attraction.att2")}</p>
                 <p className='font-TTNormsLight text-center text-sm'>{t("attraction.att3")}</p>
            </div> */}
-           <div className='absolute'>
-              <div className='grid grid-cols-2 place-content-evenly md:grid-cols-3  md:place-content-end mt-64 ml-6 lg:mt-44 text-white'>
+           <div className='absolute'> <h1 className=' font-bold text-center md:pb-3 text-white text-2xl xl:text-4xl xl:p-4'>Surf Park</h1>
+              <div className='grid grid-cols-2 place-content-evenly sm:mt-96 md:mt-5  md:grid-cols-3  md:place-content-end mt-64 ml-6 lg:mt-10 xl:mt-20 text-white'>
                 <div className='hidden md:grid'></div>
+                
                 <div className='grid place-content-evenly md:place-content-end'>
                   <ul className='p-2'>
                     <li className='p-0 text-xs md:text-sm lg:text-lg'>1 {t("attraction.1")}</li>
@@ -63,7 +64,7 @@ const Attraction = () => {
            <div className='object-cover'>
            
             <img src={Surfpark} alt='Surf park full'
-              className=''/>
+              className='object-cover'/>
 
            </div>
          
