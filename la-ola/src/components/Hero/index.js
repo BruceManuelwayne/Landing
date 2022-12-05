@@ -20,7 +20,7 @@ export default function Hero() {
 
               </div>
           </div>
-        <div className='flex flex-col md:flex-row'>
+        <div className='flex flex-col md:flex-row mx-2 md:mx-4'>
           
           <div className='flex flex-row md:flex-col max-w-md'>
             <div className='p-8 z-[1]'>

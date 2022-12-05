@@ -13,9 +13,9 @@ const Render = () => {
   return (
     <>
       <Fade triggerOnce fraction={0.5} duration={2000}>
-      <div className='bg-cover bg-center w-screen ' style={{backgroundImage:`url(${background})`}}>
+      <div className='bg-cover bg-center w-screen' style={{backgroundImage:`url(${background})`}}>
           <div className='flex flex-nowrap w-screen h-[60vh] md:h-[90vh] backdrop-brightness-50' >
-          <div className='flex-nowrap'>
+          <div className='flex-nowrap mx-2'>
           <Fade triggerOnce delay={2000} direction='right'>
               <div className=' flex-nowrap flex mt-14 ml-8 md:mx-10 md:mt-24 lg:mx-18 xl:mx-24 '>
                 <div className=''>
@@ -30,9 +30,9 @@ const Render = () => {
                 </div>
               </div>         
           </Fade>
-          <div className='absolute right-0 mt-52 md:mt-72'>
+          <div className='absolute right-0  mx-2 mt-52 md:mt-72'>
             <Fade triggerOnce delay={1000} direction='left'>  
-              <img className=' object-contain w-44 h-28 mr-4  md:mr-10 md:w-80 md:h-48 lg:w-96 ' src={keepWet} alt="keepWet tech" /> 
+              <img className=' object-contain w-44 h-28 mr-4 lg:mr-40 md:mr-10 md:w-80 md:h-48 lg:w-96  ' src={keepWet} alt="keepWet tech" /> 
             </Fade>
           </div>
       
