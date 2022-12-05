@@ -67,7 +67,7 @@ const Attraction = () => {
          */}
     </section>
     <section id='surfpark' className='bg-[#0e63ab] w-screen'>
-    <div className='absolute left-0 right-0 mx-auto  lg:mt-16'>
+    <div className='relative md:absolute  left-0 right-0 mx-auto  lg:mt-16'>
       <h1 className='text-white font-TTNormsLight text-xl  text-center mx-auto lg:p-4 lg:text-5xl'>Surfpark</h1>
       <div className='grid grid-cols-2  justify-self-centers text-white'>
         <div className='grid mx-auto'>
