@@ -17,7 +17,7 @@ const Render = () => {
           <div className='flex flex-nowrap w-screen h-[60vh] md:h-[90vh] backdrop-brightness-50' >
           <div className='flex-nowrap mx-2'>
           <Fade triggerOnce delay={2000} direction='right'>
-              <div className=' flex-nowrap flex mt-14 ml-8 md:mx-10 md:mt-24 lg:mx-18 xl:mx-24 '>
+              <div className=' flex-nowrap flex mt-14 ml-4 md:mx-10 md:mt-24 lg:mx-18 xl:mx-24 '>
                 <div className=''>
                   <img src={whiteLogo}
                       alt='white logo'
