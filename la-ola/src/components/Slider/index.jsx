@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import modulos from '../../assets/modulos/modulos.svg'
 import { SliderData } from './SliderData';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 
@@ -19,11 +20,11 @@ const Slider = ({ slides }) => {
   }
 
   return (
-    <div id='gallery' className='max-w-[1240px] mx-auto'>
+    <div id='gallery' className='w-screen h-screen mx-auto'>
+        
+      <div className='flex justify-center p-4'>
       
-      <div className='relative flex justify-center p-4'>
-
-      {SliderData.map((slide, index) => {
+      {/* {SliderData.map((slide, index) => {
         return (
           <div
             key={index}
@@ -50,8 +51,8 @@ const Slider = ({ slides }) => {
               />
             </div>
         );
-    })}
-    </div>
+    })} */}
+      </div>
     </div>
   );
 };

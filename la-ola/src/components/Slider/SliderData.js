@@ -1,6 +1,6 @@
-import modulo1 from '../../assets/modulos/15.svg'
-import modulo2 from '../../assets/modulos/10.svg'
-import modulo3 from '../../assets/modulos/5.svg'
+import modulo1 from '../../assets/modulos/15 modulos.svg'
+import modulo2 from '../../assets/modulos/10 modulos.svg'
+import modulo3 from '../../assets/modulos/5 modulos.svg'
 
 
 export const SliderData = [

@@ -12,7 +12,7 @@ const Modulos = () => {
 
   return (
     <Fade triggerOnce>
-    <div className="bg-[url('/src/assets/backgroundModulos.png')] bg-cover w-screen h-[100vh]  lg:h-[110vh] md:h-screen  object-fill text-white">
+    <div className="bg-[url('/src/assets/backgroundModulos.png')] bg-cover w-screen h-[80vh]  lg:h-[110vh] md:h-screen  object-fill text-white">
       <div className='hidden md:inline-grid w-screen h-screen'>
         <div className='p-4 grid grid-cols-2 w-screen items-center '>
           <div className=' mx-auto'>
@@ -53,8 +53,9 @@ const Modulos = () => {
           <div className='hidden sm:hidden md:inline-flex md:order-4 md:col-span-2'>
             <img src ={ModulosSvg} alt='modulos'/>
           </div>
-          <div className='md:hidden'>
-            <Slider slides={SliderData} />
+          <div className=' md:hidden'>
+          <img src={ModulosSvg}
+           className='object-contain mx-auto max-h-96 '/>
           </div>
           </Fade>
         </div>
