@@ -29,7 +29,7 @@ function Equipo() {
            </div>
           <Fade cascade triggerOnce>
            <div className='flex flex-col space-y-4  md:w-2/3 font-TTNormsReg text-[#0E63AB] font-semibold text-base lg:text-xl  '>
-           <div className='font-TTNormsLight text-base mb-4 lg:text-xl text-[#0E63AB]'>{t("advantages.set3")}</div>
+           {/* <div className='font-TTNormsLight text-base mb-4 lg:text-xl text-[#0E63AB]'>{t("advantages.set3")}</div> */}
             {t("advantages.title1")}
            <Fade direction='right' triggerOnce  cascade>
             
