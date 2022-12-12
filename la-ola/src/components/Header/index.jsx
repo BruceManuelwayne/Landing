@@ -59,7 +59,7 @@ const Header = () => {
             <div>
                  <img onClick={handleNav} className={logo ? 'hidden': 'object-scale-down h-40 w-40 '} src={Logo} alt="" />
             </div>
-            <ul className='hidden md:flex text-white md:text-sm'>
+            <ul className='hidden md:flex text-white font-CustomOla md:text-sm'>
                 <li className='md:text-base hover:text-gray-400 '>
                     <a href='#home'>HOME</a>    
                  </li>

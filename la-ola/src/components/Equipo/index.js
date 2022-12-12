@@ -20,9 +20,10 @@ function Equipo() {
     
       </div>
      
-      <div className='container flex flex-col-reverse md:flex-row items-center px-6-mx-auto-mt-10 space-y-0 md:space-x-24 px-6 mx-auto mt-10 gap-4'>
+      <div className='container flex flex-col-reverse md:flex-row items-center px-6-mx-auto-mt-10 space-y-0 md:space-x-24 px-6 mx-auto mt-10 gap-4 lg:mt-20'>
            <div className='flex flex-shrink'>
-            <img src={Render} alt='ParkRender'/> 
+            <img src={Render} alt='ParkRender'
+            className=''/> 
            </div>
           <Fade cascade triggerOnce>
            <div className='flex flex-col space-y-4  md:w-2/3 font-TTNormsReg text-[#0E63AB] font-semibold '>{t("advantages.title1")}

@@ -1,5 +1,5 @@
 import React from 'react'
-//import videoBg from '../assets/VideoBackground.mp4';
+import videoBg from '../assets/VideoBackground.mp4';
 import { useTranslation } from 'react-i18next';
 
 import screenShot from './../assets/screenShot.png'; 
@@ -22,6 +22,7 @@ const Main = () => {
           className = 'w-full h-full object-fill md:object-cover ' 
           autoPlay
           muted
+          
         />   */}
       
         <div className='bg-black absolute pt-10 pl-5 pr-5 pb-2 inset-x-0 bottom-0 w-full h-50 z-10  lg:pt-2'> 

@@ -44,7 +44,10 @@ module.exports = {
         TTNormsLight:["TTNormsLight","sans-serif"],
         CustomOla:["CustomOla","sans-serif"],
         CustomOla2:["CustomOla2","sans-serif"],
-        BoldItalic:["BoldItalic","sans-serif"]
+        BoldItalic:["BoldItalic","sans-serif"],
+        BlackOla:["BlackOla","sans-serif"],
+        BoldOla:["BoldOla","sans-serif"]
+
       },
       container: {
         padding: '3.5rem',

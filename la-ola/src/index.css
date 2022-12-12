@@ -47,6 +47,12 @@ li {
   @font-face {
   font-family:'BoldItalic';
   src:url(./assets/fonts/TT\ Norms\ Pro\ Bold Italic.otf)}
+  @font-face {
+  font-family:'BLackOla';
+  src:url(./assets/fonts/TT\ Norms\ Pro\ Black.otf)}
+  @font-face {
+  font-family:'BoldOla';
+  src:url(./assets/fonts/TT\ Norms\ Pro\ Bold.otf)}
 
 html {
   scroll-behavior: smooth;
