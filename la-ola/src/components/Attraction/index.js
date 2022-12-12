@@ -12,7 +12,7 @@ const Attraction = () => {
 } 
 
   return (
-    <Fade triggerOnce>
+    <Fade triggerOnce fraction={0.6}>
     <section id ="attraction" className='bg-[#0e63ab] w-screen'>
         {/* <div className='flex flex-col justify-evenly items-center p-4 text-white'>
           <div className='flex flex-1 flex-row w-screen justify-evenly z-[3] mt-12 '>
@@ -70,7 +70,9 @@ const Attraction = () => {
     <div className='relative md:absolute  left-0 right-0 mx-auto  lg:mt-16'>
       <h1 className='text-white font-TTNormsLight font-bold text-base lg:text-xl text-center mx-auto pt-4'>SURF PARK</h1>
       <div className='grid grid-cols-2  justify-self-centers text-white'>
-        <div className='grid mx-auto'>
+      <Fade triggerOnce cascade fraction={0.6} direction='left'>
+        <div className='grid mx-auto text-left justify-end'>
+          
                     <ul className='p-4'>
                       <li className='p-0 text-sm  lg:text-base'>1 {t("attraction.1")}</li>
                       <li className='p-0 text-sm lg:text-base'>2 {t("attraction.2")}</li>
@@ -78,7 +80,7 @@ const Attraction = () => {
                       <li className='p-0 text-sm lg:text-base'>4 {t("attraction.4")}</li>
                     </ul>
                   </div>
-                <div className='grid mx-auto'>
+                <div className='grid mx-auto text-left  justify-center'>
                     <ul className='p-4'>
                         <li className='p-0 text-sm lg:text-base'>5 {t("attraction.5")}</li>
                         <li className='p-0 text-sm lg:text-base'>6 {t("attraction.6")}</li>
@@ -87,6 +89,7 @@ const Attraction = () => {
                         <li className='p-0 text-sm lg:text-base'>9 {t("attraction.9")}</li>
                       </ul>
                 </div>
+          </Fade>
       </div>
     </div>
    

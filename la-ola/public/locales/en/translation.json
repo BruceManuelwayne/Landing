@@ -76,7 +76,7 @@
         
     },
     "modulos":{
-        "title1":"STAMDARD SUPPLY:",
+        "title1":"STANDARD SUPPLY:",
         "sen1":"We repurpose supplies from preexisting industries, assembling standard components to optimize our construction times.",
         "title2":"MODULAR TECHNOLOGY:",
         "sen2":"The machine has a modular structure, so that one only needs to change the amount or size of its components to obtain varied products suitable to different budgets.",
@@ -88,7 +88,7 @@
     "advantages":{
         "title1":"SUSTAINABLE:",
         "set1":"Designed to be economically viable.",
-      
+        "title2":"",
         "set2":"It has constant consumption and does not generate electrical peaks and therefore renewable energies can be used.",
         "set3":"LA OLA GROUP | COMPETITIVE ADVANTAGES"
     }

@@ -12,7 +12,7 @@ export default function Hero() {
 
   return (
     <>
-    <Fade triggerOnce delay={2500}>
+    <Fade triggerOnce fraction={0.6} delay={2500}>
     <section id="ola">
     </section> 
     <section id="hero1" className='bg-slate-50 w-screen'>

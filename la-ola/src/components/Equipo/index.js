@@ -23,9 +23,13 @@ function Equipo() {
       
      
       <div className='container flex flex-col-reverse md:flex-row items-center px-6-mx-auto space-y-0 md:space-x-24 px-6 mx-auto  gap-4 '>
+          
            <div className='flex flex-shrink'>
+            <Fade triggerOnce direction='left' fraction={0.6}>
             <img src={Render} alt='ParkRender'
-            className=''/> 
+            className=''/>
+            </Fade>
+           
            </div>
           <Fade cascade triggerOnce>
            <div className='flex flex-col space-y-4  md:w-2/3 font-TTNormsReg text-[#0E63AB] font-semibold text-base lg:text-xl  '>
