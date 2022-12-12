@@ -18,7 +18,7 @@ const Hero2 = () => {
       <div className='h-full flex flex-row p-2  '>
     
         
-        <div className='flex flex-wrap space-y-2 lg:space-y-0 lg:gap-24 justify-center'> 
+        <div className='flex flex-wrap space-y-2 lg:space-y-0 lg:gap-40 justify-center'> 
 
           <div className='font-BoldItalic pb-2  text-base lg:text-xl  text-[#0E63AB] sm:p-2 max-w-3xl'>{t("mission.title")}:
             <div className='font-TTNormsLight text-black text-sm lg:text-base'>{t("mission.mission1")}</div>
