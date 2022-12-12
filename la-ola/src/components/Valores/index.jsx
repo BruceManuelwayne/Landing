@@ -15,7 +15,7 @@ const Valores = () => {
     <>
     <Fade triggerOnce>
     <div className="bg-[url('/src/assets/valores.png')] bg-cover w-screen pt-5 text-white" id='valores' >
-    
+
         <div className=' grid gap-4 grid-cols-1 sm:grid-cols-1  md:grid-cols-2 grid-rows-3 p-10 md:p-20 '>
         <Fade cascade delay={1000} triggerOnce>
             <div className='grid grid-custom gap-x-6 justify-items-end'>
@@ -63,16 +63,19 @@ const Valores = () => {
                     <p className='font-TTNormsLight text-sm md:text-base'>{t("valores.sen5")}</p>
                 </div>
             </div>
-           
+            
             <div className='w-full h-32 hidden md:inline-grid'>
                 <img className='mx-auto align-baseline ' src={logo} alt='whiteLogo'/>
             </div>
+            <section id="tech">
+            </section>
             </Fade>
         </div>
+     
         
     </div>
     </Fade>
-
+   
     </>
   )
 }

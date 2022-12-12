@@ -37,23 +37,25 @@ const Render = () => {
               <img className=' object-contain w-44 h-28 mr-4 md:w-80 md:h-48 lg:w-96 ' src={keepWet} alt="keepWet tech" /> 
             </Fade>
           </div>
-      
+           
             {/* <img className='object-cover' 
               src={background}
               alt='background'/>
            */}
           </div>
-          
+           
 
             {/* <div className='bg-hero h-40 md:h-56 bg-contain bg-no-repeat w-screen flex-grow flex items-center justify-center ' >
 
             </div>
       */}
-
-          
+     
+    
 
         </div>
-      </div>      
+       
+      </div> 
+     
     </Fade>
     </>
   )

@@ -2,7 +2,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import foto from './../../assets/LAOLA-127.png';
+
 import logo from './../../assets/logoola.svg';
 import {  Fade, } from 'react-awesome-reveal';
 
@@ -13,7 +13,9 @@ export default function Hero() {
   return (
     <>
     <Fade triggerOnce delay={2500}>
-    <section id="ola" className='bg-slate-50 w-screen'>
+    <section id="ola">
+    </section> 
+    <section id="hero1" className='bg-slate-50 w-screen'>
       <div className='w-full flex lg:hidden'>
         {/* <div className='absolute'>
               <div className='bg-blue-wave p-40 sm:p-40'>

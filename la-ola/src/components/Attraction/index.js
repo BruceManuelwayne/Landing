@@ -68,23 +68,23 @@ const Attraction = () => {
     </section>
     <section id='surfpark' className='bg-[#0e63ab] w-screen'>
     <div className='relative md:absolute  left-0 right-0 mx-auto  lg:mt-16'>
-      <h1 className='text-white font-TTNormsLight text-xl  text-center mx-auto lg:p-4 lg:text-5xl'>Surfpark</h1>
+      <h1 className='text-white font-TTNormsLight font-bold text-base lg:text-xl text-center mx-auto pt-4'>SURF PARK</h1>
       <div className='grid grid-cols-2  justify-self-centers text-white'>
         <div className='grid mx-auto'>
-                    <ul className='p-2'>
-                      <li className='p-0 text-xs md:text-sm lg:text-lg'>1 {t("attraction.1")}</li>
-                      <li className='p-0 text-xs md:text-sm lg:text-lg'>2 {t("attraction.2")}</li>
-                      <li className='p-0 text-xs md:text-sm lg:text-lg'>3 {t("attraction.3")}</li>
-                      <li className='p-0 text-xs md:text-sm lg:text-lg'>4 {t("attraction.4")}</li>
+                    <ul className='p-4'>
+                      <li className='p-0 text-sm  lg:text-base'>1 {t("attraction.1")}</li>
+                      <li className='p-0 text-sm lg:text-base'>2 {t("attraction.2")}</li>
+                      <li className='p-0 text-sm lg:text-base'>3 {t("attraction.3")}</li>
+                      <li className='p-0 text-sm lg:text-base'>4 {t("attraction.4")}</li>
                     </ul>
                   </div>
                 <div className='grid mx-auto'>
-                    <ul className='p-2'>
-                        <li className='p-0 text-xs md:text-sm lg:text-lg'>5 {t("attraction.5")}</li>
-                        <li className='p-0 text-xs md:text-sm lg:text-lg'>6 {t("attraction.6")}</li>
-                        <li className='p-0 text-xs md:text-sm lg:text-lg'>7 {t("attraction.7")}</li>
-                        <li className='p-0 text-xs md:text-sm lg:text-lg'>8 {t("attraction.8")}</li>
-                        <li className='p-0 text-xs md:text-sm lg:text-lg'>9 {t("attraction.9")}</li>
+                    <ul className='p-4'>
+                        <li className='p-0 text-sm lg:text-base'>5 {t("attraction.5")}</li>
+                        <li className='p-0 text-sm lg:text-base'>6 {t("attraction.6")}</li>
+                        <li className='p-0 text-sm lg:text-base'>7 {t("attraction.7")}</li>
+                        <li className='p-0 text-sm lg:text-base'>8 {t("attraction.8")}</li>
+                        <li className='p-0 text-sm lg:text-base'>9 {t("attraction.9")}</li>
                       </ul>
                 </div>
       </div>

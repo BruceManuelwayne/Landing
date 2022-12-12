@@ -22,9 +22,7 @@ const LandingPageLayout = () => {
           <Header/>
           <Main/>
           <Valores/>
-          <section id='tech'>
-            <Tech/>
-          </section>
+          <Tech/>
           <Machine/>
           <Modulos/>
           <Equipo/>

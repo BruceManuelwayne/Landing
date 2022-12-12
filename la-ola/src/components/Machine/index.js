@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Doodle from './../../assets/doodle.svg';
+
 import {Fade} from 'react-awesome-reveal';
 
 function Machine() {
@@ -8,21 +8,18 @@ function Machine() {
 
   return (
    
-    <section id="machine" className='bg-[#0E63AB] w-screen'>
+    <section id="machine" className='bg-[#0E63AB] w-screen pb-6'>
        <Fade triggerOnce fraction={0.5} >
-        <div className='container pb-2 flex flex-col-reverse md:flex-row items-center px-6-mx-auto-mt-10 space-y-0 md:space-y-0 px-6 mx-auto mt-10 space-y.0'>
-                <div className='flex flex-col mb-32 space-y-8 md:w-2/3 text-white font-TTNormsReg'>
+        <div className='container pb-2 flex flex-col-reverse items-center px-6-mx-auto-mt-10 space-y-0 md:space-y-0 px-6 mx-auto mt-10 space-y.0'>
+                <div className='flex flex-col mb-32 space-y-8 text-white font-TTNormsReg'>
                   <Fade direction='left' delay={2} triggerOnce cascade>
-                    <h1 className='max-w-md  text-center font-BoldItalic text-base md:text-3xl  md:text-left'>{t("machine.titulo")}</h1>
-                    <p className='max-w-sm text-center md:text-left  font-TTNormsLight'>{t("machine.machine1")} </p>
-                    <h1 className='max-w-md  text-center font-BoldItalic text-base md:text-3xl  md:text-left '>{t("machine.componentes")}</h1>
-                    <p className='max-w-sm text-center md:text-left font-TTNormsLight'>{t("machine.compInfo")} </p> 
+                    <h1 className='max-w-md  text-center font-BoldItalic text-base lg:text-xl'>{t("machine.titulo")}</h1>
+                    <p className='max-w-sm text-center text-sm lg:text-base font-TTNormsLight'>{t("machine.machine1")} </p>
+                    <h1 className='max-w-md  text-center font-BoldItalic text-base lg:text-xl    '>{t("machine.componentes")}</h1>
+                    <p className='max-w-sm  text-sm text-center lg:text-base font-TTNormsLight'>{t("machine.compInfo")} </p> 
                   </Fade> 
                 </div> 
-                <div className='flex flex-col mb-32 pl-2 space-y-8 md:w-2/3 align-middle'>
-                  <Fade direction='left' triggerOnce delay={1} ><img src={Doodle} alt='Doodle'
-                  className='scale-75 md:scale-100'/></Fade>
-                </div>
+              
             </div>
             {/* <section id = "maintenance" className='bg-slate-50'>
               <div className='container flex flex-col-reverse md:flex-row items-center px-6-mx-auto space-y-0 md:space-y-0 px-6 mx-auto mt-10 space-y.0'>

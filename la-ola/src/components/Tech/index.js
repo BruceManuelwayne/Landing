@@ -19,7 +19,7 @@ const Tech = () => {
   <div className='bg-blue-wave w-screen flex flex-wrap flex-col '> 
     <div className=' bg-slate-50 flex flex-col w-screen  lg:flex-row-reverse items-center md:justify-evenly text-center md:text-left'>
    
-      <div className='p-10 mx-auto md:p-14 w-screen font-TTNormsLight text-sm sm:text-base lg:text-lg md:max-w-fit'>
+      <div className='p-10 mx-auto md:p-14 w-screen font-TTNormsLight text-base text-center md:text-justify md:max-w-fit'>
         <Fade triggerOnce>{t("tech.tecno1")}</Fade>
       </div>
       

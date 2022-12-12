@@ -15,18 +15,18 @@ const Hero2 = () => {
           <img src={sideSvg} alt='sidedetail' className=' scale-150'/>
       </div>
      
-      <div className='h-full flex  flex-row p-2  '>
+      <div className='h-full flex flex-row p-2  '>
     
         
-        <div className=' flex flex-wrap items-center justify-center m-2 text-start space-y-2 lg:space-y-0  lg:gap-16'> 
-        <Fade triggerOnce cascade direction='left'>  
-          <div className='font-BoldItalic  pb-2 text-base md:text-xl text-[#0E63AB] sm:p-2 justify-center  max-w-3xl  '>{t("mission.title")}:
-            <div className='font-TTNormsLight text-black text-sm md:text-base'>{t("mission.mission1")}</div>
+        <div className='flex flex-wrap space-y-2 lg:space-y-0 lg:gap-24 justify-center'> 
+
+          <div className='font-BoldItalic pb-2  text-base lg:text-xl  text-[#0E63AB] sm:p-2 max-w-3xl'>{t("mission.title")}:
+            <div className='font-TTNormsLight text-black text-sm lg:text-base'>{t("mission.mission1")}</div>
           </div>
-          <div className='font-BoldItalic  pb-2text-base text-base md:text-xl text-[#0E63AB] sm:p-2  justify-center  max-w-3xl'>{t("mission.title2")}:
-            <p className='font-TTNormsLight text-black text-sm md:text-base'>{t("mission.vision")}</p>
+          <div className='font-BoldItalic m-0  pb-2  text-base text-[#0E63AB] sm:p-2 lg:text-xl  max-w-3xl'>{t("mission.title2")}:
+            <p className='font-TTNormsLight text-black text-sm lg:text-base'>{t("mission.vision")}</p>
           </div>
-          </Fade>
+
         </div>
       
       
