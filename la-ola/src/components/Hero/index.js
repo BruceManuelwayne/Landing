@@ -35,7 +35,7 @@ export default function Hero() {
 
 
 
-              <p className='max-w-prose text-justify pl-2 text-base pr-8 md:pr-2 font-TTNormsLight'>{t("ola.mainInfo")} </p>
+              <p className='max-w-prose text-justify pl-2 text-base  pr-8 md:pr-2 font-TTNormsLight'>{t("ola.mainInfo")} </p>
 
             </div>
 
@@ -55,7 +55,7 @@ export default function Hero() {
 
               <div className=' bg-slate-50 flex flex-col w-full font-TTNormsReg text-black align-top'>
                   <img src = {logo} className='object-scale-down h-40 w-40 ' alt=''/>
-                  <p className='max-w-prose text-justify text-base font-TTNormsLight'>{t("ola.mainInfo")} </p>
+                  <p className='max-w-prose text-justify text-base lg:text-xl font-TTNormsLight'>{t("ola.mainInfo")} </p>
               </div>
 
             </div>
@@ -75,7 +75,7 @@ export default function Hero() {
               <div className=' bg-slate-50 flex flex-col font-TTNormsReg text-black align-top'>
               <img src = {logo} className='object-scale-down h-40 w-40 ' alt=''/>
 
-                  <p className='max-w-prose  text-justify text-base font-TTNormsLight'>{t("ola.mainInfo")} </p>
+                  <p className='max-w-prose  text-justify text-base lg:text-xl font-TTNormsLight'>{t("ola.mainInfo")} </p>
 
               </div>
             </div>

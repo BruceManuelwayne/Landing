@@ -15,7 +15,7 @@ const Render = () => {
       <Fade triggerOnce fraction={0.5} duration={2000}>
       <div className='bg-cover bg-center w-screen' style={{backgroundImage:`url(${background})`}}>
           <div className='flex flex-nowrap w-screen h-[60vh] md:h-[90vh] backdrop-brightness-50' >
-          <div className='flex-nowrap mx-2'>
+          <div className='flex-nowrap mx-2 '>
             
           <Fade triggerOnce delay={2000} direction='right'>
               <div className='flex-nowrap flex items-end mt-14 ml-4
