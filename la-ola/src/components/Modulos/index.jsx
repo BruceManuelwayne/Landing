@@ -1,11 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
-import Slider from '../Slider/index'; 
-import {SliderData} from '../Slider/SliderData';
 import Dibujo from '../../assets/doodle.svg'
-
-
-
 import {Fade} from 'react-awesome-reveal';
 
 
@@ -14,7 +9,7 @@ const Modulos = () => {
 
   return (
     <Fade triggerOnce>
-    <div className="bg-[url('/src/assets/backgroundModulos.png')] bg-cover w-screen h-auto object-fill text-white">
+    <div className="bg-[url('/src/assets/backgroundModulos.webp')] bg-cover w-screen h-auto object-fill text-white">
    
       <div className='hidden md:inline-grid w-screen h-screen place-items-center'>
         <div className='container pb-2 flex flex-col-reverse items-center px-6-mx-auto space-y-0 md:space-y-0 px-6 mx-auto s'>

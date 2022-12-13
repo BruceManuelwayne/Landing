@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import Render from './../../assets/renderPark.png'
+import Render from './../../assets/renderPark.webp'
 
 import sideSvg from './../../assets/sidebar.svg'
 import {Fade} from 'react-awesome-reveal';

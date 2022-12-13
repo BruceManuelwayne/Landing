@@ -1,9 +1,6 @@
 import React from 'react'
 import videoBg from '../assets/VideoBackground.mp4';
 import { useTranslation } from 'react-i18next';
-
-import screenShot from './../assets/screenShot.png'; 
- 
 import Render from './Render';
 import Hero from '../components/Hero';
 import Hero2 from '../components/Hero2';
@@ -22,12 +19,13 @@ const Main = () => {
           className = 'w-full h-full object-fill md:object-cover ' 
           autoPlay
           muted
+          loop
           
         />  
       
-        <div className='bg-black absolute pt-10 pl-5 pr-5 pb-2 inset-x-0 bottom-0 w-full h-60 z-10  lg:pt-2'> 
+        <div className='bg-black absolute pt-10 pl-5 pr-5 pb-2 inset-x-0 bottom-0 w-full h-40  z-10  lg:pt-2'> 
           <div className='bg-black w-full flex flex-row space-x-3 justify-around items-center '>
-            <div className='w-full bg-black h-10 md:h-16 lg:h-28'></div>
+            <div className='w-full bg-black h-8 md:h-16 lg:h-28'></div>
               {/* <div className=' bg-black  h-full flex flex-col space-y-0 mt-3 w-1/2 '>
                 <Fade triggerOnce delay={1000} direction='right'>
                 <h1 className=' bg-black font-ExtraBlack  text-xs sm:text-xs  md:ml-6 md:text-lg lg:text-2xl xl:text-3xl font-BoldItalic  text-white' >{t("hero.olas")}</h1>

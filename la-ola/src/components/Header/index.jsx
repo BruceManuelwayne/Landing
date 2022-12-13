@@ -1,6 +1,6 @@
 import React, {useState} from 'react'; 
 import Logo from './../../assets/Logowhite.svg'; 
-import {Link} from 'react-router-dom';
+
 import { useTranslation } from 'react-i18next';
 
 import {AiOutlineClose} from 'react-icons/ai'; 

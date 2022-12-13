@@ -54,7 +54,7 @@ module.exports = {
         center: true
       },
       backgroundImage: theme => ({
-        'hero': "url('/src/assets/Hero.png')"
+       
       }),
     },
     container:{

@@ -1,8 +1,8 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
-import buzo from './../..//assets/buzo.png';
+import buzo from './../..//assets/buzo.webp';
 import sideSvg from './../../assets/sidebar.svg'
-import {Slide , Fade} from 'react-awesome-reveal';
+import {Fade} from 'react-awesome-reveal';
 
 const Hero2 = () => {
 

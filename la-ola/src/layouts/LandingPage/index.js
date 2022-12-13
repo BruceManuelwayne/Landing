@@ -9,7 +9,7 @@ import Attraction from '../../components/Attraction';
 import Contact from '../../components/Contact';
 
 import Main from '../../components/Main';
-import Render from '../../components/Render';
+
 import Valores from '../../components/Valores';
 import Modulos from '../../components/Modulos';
 

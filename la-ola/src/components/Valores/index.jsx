@@ -14,7 +14,7 @@ const Valores = () => {
   return (
     <>
     <Fade triggerOnce>
-    <div className="bg-[url('/src/assets/valores.png')] bg-cover w-screen pt-5 text-white" id='valores' >
+    <div className="bg-[url('/src/assets/valores.webp')] bg-cover w-screen pt-5 text-white" id='valores' >
 
         <div className=' grid gap-4 grid-cols-1 sm:grid-cols-1  md:grid-cols-2 grid-rows-3 p-10 md:p-20 '>
         <Fade cascade delay={1000} triggerOnce>

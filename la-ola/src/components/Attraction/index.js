@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Surfpark from './../../assets/GroupSurfpark.webp';
-import whiteOla from './../../assets/whiteOla.svg';
+
 import {Fade} from 'react-awesome-reveal';
 
 const Attraction = () => {
