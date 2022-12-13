@@ -68,10 +68,10 @@ const Attraction = () => {
     </section>
     <section id='surfpark' className='bg-[#0e63ab] w-screen'>
     <div className='relative md:absolute  left-0 right-0 mx-auto  lg:mt-16'>
-      <h1 className='text-white font-TTNormsLight font-bold text-base lg:text-xl text-center mx-auto pt-4'>SURF PARK</h1>
+      <h1 className='text-white font-BoldItalic text-base lg:text-xl text-center mx-auto pt-4'>SURF PARK</h1>
       <div className='grid grid-cols-2  justify-self-centers text-white'>
       <Fade triggerOnce cascade delay={1500} fraction={0.6} direction='left'>
-        <div className='grid mx-auto text-left justify-end'>
+        <div className='grid mx-auto text-left justify-end font-TTNormsLight'>
           
                     <ul className='p-4'>
                       <li className='p-0 text-sm  lg:text-base'>1 {t("attraction.1")}</li>
@@ -80,7 +80,7 @@ const Attraction = () => {
                       <li className='p-0 text-sm lg:text-base'>4 {t("attraction.4")}</li>
                     </ul>
                   </div>
-                <div className='grid mx-auto text-left  justify-center'>
+                <div className='grid mx-auto text-left  justify-center font-TTNormsLight'>
                     <ul className='p-4'>
                         <li className='p-0 text-sm lg:text-base'>5 {t("attraction.5")}</li>
                         <li className='p-0 text-sm lg:text-base'>6 {t("attraction.6")}</li>
