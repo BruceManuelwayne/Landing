@@ -41,7 +41,7 @@ const Modulos = () => {
          
           
           <Fade triggerOnce>
-          <section id="ventajas"></section>
+         
             <div className='mx-auto'>
           
             
