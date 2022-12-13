@@ -25,22 +25,14 @@ const Tech = () => {
       
   <Fade/>
   
-      <div className='p-5 md:p-20'>
-       <Fade triggerOnce> <img className='w-52 md:w-96 '
-          src={Logo} alt='LogoLaOlaAzul'/></Fade>
-      </div>
+     
     </div>
     
    
     <div className='p-10  bg-blue-wave items-center'>
 
     <Fade triggerOnce>
-      <div className='mx-auto'>
-    
-      
-        <img src={Dibujo} alt='Dibujo' className=' mx-auto'/>  
-        
-      </div>
+     
     </Fade>
 
     </div>
