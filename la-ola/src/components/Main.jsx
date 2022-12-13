@@ -12,7 +12,7 @@ const Main = () => {
 
   return (
     <div>
-      <div className=' h-[75vh] md:w-full md:h-screen relative' id='home'>
+      <div className='bg-black h-[75vh] md:w-full md:h-screen relative' id='home' >
         {/* <img src={screenShot} alt='' className='w-full h-full object-cover'/> */}
 
         <video src={videoBg} 
