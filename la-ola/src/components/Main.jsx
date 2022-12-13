@@ -16,14 +16,14 @@ const Main = () => {
   return (
     <div>
       <div className=' h-[75vh] md:w-full md:h-screen relative' id='home'>
-        <img src={screenShot} alt='' className='w-full h-full object-cover'/>
+        {/* <img src={screenShot} alt='' className='w-full h-full object-cover'/> */}
 
-        {/* <video src={videoBg} 
+        <video src={videoBg} 
           className = 'w-full h-full object-fill md:object-cover ' 
           autoPlay
           muted
           
-        />   */}
+        />  
       
         <div className='bg-black absolute pt-10 pl-5 pr-5 pb-2 inset-x-0 bottom-0 w-full h-60 z-10  lg:pt-2'> 
           <div className='bg-black w-full flex flex-row space-x-3 justify-around items-center '>

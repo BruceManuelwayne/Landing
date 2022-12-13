@@ -70,7 +70,7 @@ const Attraction = () => {
     <div className='relative md:absolute  left-0 right-0 mx-auto  lg:mt-16'>
       <h1 className='text-white font-TTNormsLight font-bold text-base lg:text-xl text-center mx-auto pt-4'>SURF PARK</h1>
       <div className='grid grid-cols-2  justify-self-centers text-white'>
-      <Fade triggerOnce cascade fraction={0.6} direction='left'>
+      <Fade triggerOnce cascade delay={1500} fraction={0.6} direction='left'>
         <div className='grid mx-auto text-left justify-end'>
           
                     <ul className='p-4'>

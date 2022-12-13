@@ -20,10 +20,10 @@ const Modulos = () => {
         <div className='container pb-2 flex flex-col-reverse items-center px-6-mx-auto space-y-0 md:space-y-0 px-6 mx-auto s'>
                   <div className='flex flex-col  space-y-8 text-white font-TTNormsReg'>
                     <Fade direction='left' delay={2} triggerOnce cascade>
-                      <h1 className='max-w-lg  text-center font-BoldItalic text-base lg:text-xl'>{t("modulos.title1")}</h1>
-                      <p className='max-w-md text-center text-sm lg:text-base font-TTNormsLight'>{t("modulos.sen1")} </p>
-                      <h1 className='max-w-lg  text-center font-BoldItalic text-base lg:text-xl    '>{t("modulos.title2")}</h1>
-                      <p className='max-w-md text-sm text-center lg:text-base font-TTNormsLight'>{t("modulos.sen2")} </p> 
+                      <h1 className='max-w-lg lg:max-w-3xl  text-center font-BoldItalic text-base lg:text-xl'>{t("modulos.title1")}</h1>
+                      <p className='max-w-md lg:max-w-3xl text-center text-sm lg:text-base font-TTNormsLight'>{t("modulos.sen1")} </p>
+                      <h1 className='max-w-lg  lg:max-w-3xl text-center font-BoldItalic text-base lg:text-xl    '>{t("modulos.title2")}</h1>
+                      <p className='max-w-md  lg:max-w-3xl text-sm text-center lg:text-base font-TTNormsLight'>{t("modulos.sen2")} </p> 
                     </Fade> 
                   </div> 
                 
