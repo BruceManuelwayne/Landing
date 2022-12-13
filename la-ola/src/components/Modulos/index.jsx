@@ -41,11 +41,12 @@ const Modulos = () => {
          
           
           <Fade triggerOnce>
+          <section id="ventajas"></section>
             <div className='mx-auto'>
           
             
               <img src={Dibujo} alt='Dibujo' className=' mx-auto mb-4 scale-90 ml-8'/>  
-              
+            
             </div>
           </Fade>
           </Fade>
@@ -56,6 +57,7 @@ const Modulos = () => {
         
        
     </div>
+   
     </Fade>
   )
 }
