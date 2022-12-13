@@ -55,7 +55,7 @@ const Header = () => {
     // })
 
     return (
-        <div  className=' bg-black flex w-screen justify-between items-center h-24 px-4 fixed z-20  font-TTNormsLight'>
+        <div  className=' bg-black flex w-screen justify-between items-center h-24 px-4 fixed z-20  font-CustomOla'>
             <div>
                  <img onClick={handleNav} className={logo ? 'hidden': 'object-scale-down h-40 w-40 '} src={Logo} alt="" />
             </div>
