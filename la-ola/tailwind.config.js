@@ -25,6 +25,7 @@ module.exports = {
       },
 
       keyframes:{
+        
       
         wave:{
           '0%': { transform: 'translateY(0)' },
