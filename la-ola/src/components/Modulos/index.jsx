@@ -9,9 +9,35 @@ const Modulos = () => {
 
   return (
     <Fade triggerOnce>
-    <div className="bg-[url('/src/assets/backgroundModulos.webp')] bg-cover w-screen h-auto object-fill text-white">
+    <div className="bg-[url('/src/assets/backgroundModulos.webp')]  bg-cover w-screen h-screen  text-white grid content-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 justify-items-center place-items-center content-center gap-20 p-8 md:p-10 lg:p-20">
+      <div class="col space-y-8">
+      <Fade direction='left' delay={2} triggerOnce>
+        <h1 className='max-w-md lg:max-w-3xl text-center  font-BoldItalic text-base lg:text-xl'>{t("machine.titulo")}</h1>
+        <p className='max-w-sm  lg:max-w-3xl text-justify text-sm lg:text-base font-TTNormsLight'>{t("machine.machine1")} </p>
+        </Fade>
+      </div>
+      <div class="col space-y-8">
+      <Fade direction='left' delay={2} triggerOnce>
+        <h1 className='max-w-lg  lg:max-w-3xl text-center font-BoldItalic text-base lg:text-xl    '>{t("modulos.title2")}</h1>
+        <p className='max-w-md  lg:max-w-3xl text-sm text-justify lg:text-base font-TTNormsLight'>{t("modulos.sen2")} </p> 
+      </Fade>
+      </div>
+      <div class="col space-y-8">
+      <Fade direction='right' delay={2} triggerOnce>
+            <h1 className='max-w-lg lg:max-w-3xl  text-center font-BoldItalic text-base lg:text-xl'>{t("modulos.title1")}</h1>
+            <p className='max-w-md lg:max-w-3xl text-justify text-sm lg:text-base font-TTNormsLight'>{t("modulos.sen1")} </p>
+        </Fade>
+      </div>
+      <div class="col space-y-8">
+        <Fade direction='right' delay={2} triggerOnce>
+          <h1 className='max-w-md lg:max-w-3xl  text-center font-BoldItalic text-base lg:text-xl    '>{t("machine.componentes")}</h1>
+          <p className='max-w-sm lg:max-w-3xl  text-sm text-justify lg:text-base font-TTNormsLight'>{t("machine.compInfo")} </p> 
+        </Fade>
+      </div>
+</div>
    
-      <div className='hidden md:inline-grid w-screen h-screen place-items-center'>
+      {/* <div className='hidden md:inline-grid w-screen h-screen place-items-center'>
         <div className='container pb-2 flex flex-col-reverse items-center px-6-mx-auto space-y-0 md:space-y-0 px-6 mx-auto s'>
                   <div className='flex flex-col  space-y-8 text-white font-TTNormsReg'>
                     <Fade direction='left' delay={2} triggerOnce cascade>
@@ -51,7 +77,7 @@ const Modulos = () => {
           </Fade>
           </Fade>
         </div>
-        </Fade>
+        </Fade> */}
        
       
         

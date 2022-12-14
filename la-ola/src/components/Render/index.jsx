@@ -18,7 +18,7 @@ const Render = () => {
           <div className='flex-nowrap mx-2 '>
             
           <Fade triggerOnce delay={2000} direction='right'>
-              <div className='flex-nowrap flex items-end mt-14 ml-4
+              <div className='flex-nowrap flex items-end mt-14 sm:ml-4
                md:mx-10 md:mt-24 lg:mx-18 xl:mx-24 '>
                 <div className='mb-[3px]'>
                   <img src={whiteLogo}
