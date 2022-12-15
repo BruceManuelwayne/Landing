@@ -1,4 +1,5 @@
 import React from 'react'
+
 import videoBg from '../assets/VideoBackground.mp4';
 import { useTranslation } from 'react-i18next';
 import Render from './Render';
@@ -14,9 +15,12 @@ const Main = () => {
     <div>
       <div className='bg-black h-[30vh] md:w-full md:h-screen relative' id='home' >
         {/* <img src={screenShot} alt='' className='w-full h-full object-cover'/> */}
-        <svg class="motion-safe:animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24">
-    
-        </svg>
+        {/* <div loading className="fixed top-0 left-0 right-0 bottom-0 w-full h-screen z-50 overflow-hidden bg-gray-700 opacity-75 flex flex-col items-center justify-center">
+          <div className="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 h-12 w-12 mb-4"></div>
+          <h2 className="text-center text-white text-xl font-semibold">Loading...</h2>
+         
+        </div> */}
+   
         <video src={videoBg} 
           className = 'mt-20 sm:mt-0 md:mt md:w-full md:h-full object-contain md:object-cover ' 
           autoPlay

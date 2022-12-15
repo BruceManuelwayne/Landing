@@ -10,8 +10,8 @@ const Modulos = () => {
   return (
     <Fade triggerOnce>
     <div className="bg-[url('/src/assets/backgroundModulos.webp')]  bg-cover w-screen h-screen  text-white grid content-center">
-    <div class="grid grid-cols-1 md:grid-cols-2 justify-items-center place-items-center content-center gap-20 p-8 md:p-10 lg:p-20">
-      <div class="col space-y-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 justify-items-center place-items-center content-center gap-5 md:gap-20  p-8 md:p-10 lg:p-20">
+      <div class="col space-y-6 md:space-y-8 ">
       <Fade direction='left' delay={2} triggerOnce>
         <h1 className='max-w-md lg:max-w-3xl text-center  font-BoldItalic text-base lg:text-xl'>{t("machine.titulo")}</h1>
         <p className='max-w-sm  lg:max-w-3xl text-justify text-sm lg:text-base font-TTNormsLight'>{t("machine.machine1")} </p>

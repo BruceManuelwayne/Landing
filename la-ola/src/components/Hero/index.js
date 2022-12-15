@@ -71,7 +71,7 @@ export default function Hero() {
             {/* <div className='h-auto w-auto flex-auto'>
                 <img src = {foto} className='h-max-w-lg object-cover sm: scale-50 md:scale-75 lg:scale-80' alt=''/>
             </div> */}
-            <div className=' h-auto flex flex-wrap items-center mt-5 p-6 mx-auto'>
+            <div className='h-auto flex flex-wrap items-center mt-5 p-6 mx-auto'>
               <div className=' bg-slate-50 flex flex-col font-TTNormsReg text-black align-top'>
               <img src = {logo} className='object-scale-down h-40 w-40 ' alt=''/>
 
