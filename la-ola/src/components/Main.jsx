@@ -1,11 +1,11 @@
 import React from 'react'
 
-import videoBg from '../assets/VideoBackground.mp4';
+//import videoBg from '../assets/VideoBackground.mp4';
 import { useTranslation } from 'react-i18next';
 import Render from './Render';
 import Hero from '../components/Hero';
 import Hero2 from '../components/Hero2';
-
+import VideoPlayer from '../components/VideoPlayer';
 
 
 const Main = () => {
@@ -20,15 +20,15 @@ const Main = () => {
           <h2 className="text-center text-white text-xl font-semibold">Loading...</h2>
          
         </div> */}
-   
-        <video src={videoBg} 
+        <VideoPlayer/>
+        {/* <video src={videoBg} 
           className = 'mt-20 sm:mt-0 md:mt md:w-full md:h-full object-contain md:object-cover ' 
           autoPlay
           muted
           loop
           
           
-        />  
+        />   */}
         
         
       
