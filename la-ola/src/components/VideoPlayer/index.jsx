@@ -9,17 +9,19 @@ const Video = props => {
       };
   return (
     <> 
-        <div className="loading" style={{ opacity: isVideoLoaded ? 1 : 0 }}></div>
+         <div className=" w-screen h-screen absolute flex items-center align-middle justify-center" style={{ opacity: isVideoLoaded ? 0 : 1 }} >
+            <div id="loading"></div>
+        </div>
         <video src={videoBg} 
         className = 'mt-20 sm:mt-0 md:mt md:w-full md:h-full object-contain md:object-cover ' 
         autoPlay
         muted
         loop
         playsInline
+        onLoadedData={onLoadedData}
+        style={{ opacity: isVideoLoaded ? 1 : 0 }}
         />   
-        <div className=" w-screen h-screen z-50 flex items-center align-middle justify-center" >
-            <div id="loading"></div>
-        </div>
+       
     </>
   );
 };
