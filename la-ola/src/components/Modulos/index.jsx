@@ -17,7 +17,15 @@ const Modulos = () => {
     <div className='mx-8 my-8'>
                 <div className=' grid gap-4 grid-cols-1 sm:grid-cols-1 justify-items-stretch text-justify md:grid-cols-2 '>
                     <Fade cascade delay={1000} triggerOnce>
-
+                      <div className='grid grid-custom gap-x-4 justify-items-end'>
+                            <div className='w-7 md:w-8 '>
+                                <img src={circle} alt='Circle1'/>
+                            </div>
+                            <div className=''>
+                                <span className='font-BoldItalic text-base lg:text-xl'>{t("modulos.title1")}</span>
+                                <p className='font-TTNormsLight text-sm lg:text-base'>{t("modulos.sen1")}</p>
+                            </div>
+                        </div>
                         <div className='grid grid-custom gap-x-4 '>
                             
                             <div className='w-7 md:w-8 '>
@@ -36,15 +44,7 @@ const Modulos = () => {
                                 <p className='font-TTNormsLight text-sm lg:text-base'>{t("modulos.sen2")}</p>
                             </div>  
                         </div>
-                        <div className='grid grid-custom gap-x-4 justify-items-end'>
-                            <div className='w-7 md:w-8 '>
-                                <img src={circle} alt='Circle1'/>
-                            </div>
-                            <div className=''>
-                                <span className='font-BoldItalic text-base lg:text-xl'>{t("modulos.title1")}</span>
-                                <p className='font-TTNormsLight text-sm lg:text-base'>{t("modulos.sen1")}</p>
-                            </div>
-                        </div>
+                       
                         <div className='grid grid-custom gap-x-4 justify-items-end'>
                             <div className='w-7 md:w-8 '>
                                 <img src={circle} alt='Circle1'/>

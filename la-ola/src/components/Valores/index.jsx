@@ -31,15 +31,7 @@ const Valores = () => {
                                 <p className='font-TTNormsLight text-sm lg:text-base'>{t("valores.sen1")}</p>
                             </div>
                         </div>
-                        <div className='grid grid-custom gap-x-4 justify-items-end'>
-                            <div className='w-7 md:w-8 '>
-                                <img src={circle} alt='Circle1'/>
-                            </div>
-                            <div>
-                                <span className='font-BoldItalic text-base lg:text-xl'>{t("valores.title2")}</span>
-                                <p className='font-TTNormsLight text-sm lg:text-base'>{t("valores.sen2")}</p>
-                            </div>  
-                        </div>
+                        
                         <div className='grid grid-custom gap-x-4 justify-items-end'>
                             <div className='w-7 md:w-8 '>
                                 <img src={circle} alt='Circle1'/>
@@ -49,15 +41,7 @@ const Valores = () => {
                                 <p className='font-TTNormsLight text-sm lg:text-base'>{t("valores.sen3")}</p>
                             </div>
                         </div>
-                        <div className='grid grid-custom gap-x-4 justify-items-end'>
-                            <div className='w-7 md:w-8 '>
-                                <img src={circle} alt='Circle1'/>
-                            </div>
-                            <div>
-                                <span className='font-BoldItalic text-base lg:text-xl'>{t("valores.title4")}</span>
-                                <p className='font-TTNormsLight text-sm lg:text-base'>{t("valores.sen4")}</p>
-                            </div> 
-                        </div>
+                       
                     
                         <div className='grid grid-custom gap-x-4 justify-items-end'>
                         
@@ -71,6 +55,24 @@ const Valores = () => {
                                 <p className='font-TTNormsLight text-sm lg:text-base'>{t("valores.sen5")}</p>
                                 <section id='tech2'></section>
                             </div>
+                        </div>
+                        <div className='grid grid-custom gap-x-4 justify-items-end'>
+                            <div className='w-7 md:w-8 '>
+                                <img src={circle} alt='Circle1'/>
+                            </div>
+                            <div>
+                                <span className='font-BoldItalic text-base lg:text-xl'>{t("valores.title4")}</span>
+                                <p className='font-TTNormsLight text-sm lg:text-base'>{t("valores.sen4")}</p>
+                            </div> 
+                        </div>
+                        <div className='grid grid-custom gap-x-4 justify-items-end'>
+                            <div className='w-7 md:w-8 '>
+                                <img src={circle} alt='Circle1'/>
+                            </div>
+                            <div>
+                                <span className='font-BoldItalic text-base lg:text-xl'>{t("valores.title2")}</span>
+                                <p className='font-TTNormsLight text-sm lg:text-base'>{t("valores.sen2")}</p>
+                            </div>  
                         </div>
                         <div className='grid'>
                             <div className='sm:max-w-xs md:max-w-sm justify-self-center'>
