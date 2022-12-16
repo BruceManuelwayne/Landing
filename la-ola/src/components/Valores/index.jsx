@@ -74,7 +74,7 @@ const Valores = () => {
                         </div>
                         <div className='grid'>
                             <div className='sm:max-w-xs md:max-w-sm justify-self-center'>
-                                <img className='mx-auto justify-self-center ' src={Dibujo} alt='whiteLogo'/>
+                                <img className='mx-auto justify-self-center ml-6 md:ml-0 ' src={Dibujo} alt='whiteLogo'/>
                             </div>
                          </div>
                         
