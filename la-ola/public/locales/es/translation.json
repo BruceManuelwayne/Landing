@@ -38,6 +38,7 @@
             "team3":"Contamos con un equipo interdisciplinario de más de 20 personas especializadas en distintas áreas trabajando en pos de hacer realidad el sueño que nos une: olas en cualquier parte del mundo."
         },
         "valores":{
+            "title":"VALORES",
             "title1":"INNOVACION",
             "sen1":"Materializamos ocurrencias. Nos motiva el aplicar disruptivamente nuevos conceptos o formas de hacer las cosas que generen una mejora sustancial.",
             "title2":"SOSTENTIBILIDAD",
@@ -47,7 +48,7 @@
             "title4":"PASION",
             "sen4":"Somos fanáticos del surf, de la tecnologia y de los desafios. Buscamos permanentemente lograr cosas impensadas contagiando ese sentimiento vehemente que nos motiva todos los días",
             "title5":"EFICIENCIA",
-            "sen5":"Es la permisa fundamental bajo la cual gira nuestro día a día. Mejoramos continuamente insumos, productos, procesos, formas de hacer y pensar en pos de lograr la mejor versión de lo que hacemos."
+            "sen5":"Es la premisa fundamental bajo la cual gira nuestro día a día. Mejoramos continuamente insumos, productos, procesos, formas de hacer y pensar en pos de lograr la mejor versión de lo que hacemos."
             },
         
         "modulos":{
@@ -62,9 +63,9 @@
         },
         "mission":{
             "title":"MISIÓN ",
-            "mission1":"Acercar el surf a cualquier parte del mundo",
+            "mission1":"Acercar el surf a cualquier parte del mundo.",
             "title2":"VISIÓN",
-            "vision":"Ser la mejor experiencia de surf fuera del mar"
+            "vision":"Ser la mejor experiencia de surf fuera del mar."
         },
         "attraction":{
             "title":"ATRACCIÓN",
@@ -87,6 +88,7 @@
             
         },
         "advantages":{
+            "title":"VENTAJAS",
             "title1":"SOSTENIBLE:",
             "set1":"Concebido económicamente viable.",
             "title2":"SUSTENTABLE:",

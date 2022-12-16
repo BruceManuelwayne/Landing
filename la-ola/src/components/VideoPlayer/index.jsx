@@ -9,7 +9,7 @@ const Video = props => {
       };
   return (
     <> 
-         <div className=" w-screen h-screen absolute flex items-center align-middle justify-center" style={{ opacity: isVideoLoaded ? 0 : 1 }} >
+         <div className=" w-screen h-[80vh] absolute flex items-center align-middle justify-center" style={{ opacity: isVideoLoaded ? 0 : 1 }} >
             <div id="loading"></div>
         </div>
         <video src={videoBg} 

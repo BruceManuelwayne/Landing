@@ -124,10 +124,10 @@ const Header = () => {
                                 <a href='#ola'> {t("nav.quienes somos")}</a>    
                             </li>
                             <li className='hover:text-gray-400 border-b'>
-                                <a href='#valores'>{t("nav.valores")}</a>          
+                                <a href='#valores2'>{t("nav.valores")}</a>          
                             </li>   
                             <li className='hover:text-gray-400 border-b'>
-                                <a href='#tech'>{t("nav.tecnologia")} </a>     
+                                <a href='#tech2'>{t("nav.tecnologia")} </a>     
                             </li>
                             
                             <li className='hover:text-gray-400 border-b'>
@@ -137,7 +137,7 @@ const Header = () => {
                                 <a href='#attraction'>{t("nav.surfpark")}</a>       
                             </li>
                             <li className='hover:text-gray-400 border-b   text-blue-400 font-bold '>
-                                <a href='#contact'>{t("nav.contacto")}</a>       
+                                <a href='#contact2'>{t("nav.contacto")}</a>       
                             </li>
                         </ul>
                         <div className='flex justify-between my-6 p-4'>

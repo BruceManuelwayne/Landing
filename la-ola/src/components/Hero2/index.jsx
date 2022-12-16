@@ -41,8 +41,9 @@ const Hero2 = () => {
         />
         </Fade>
       </div>
-  
+      <section id='valores2'></section>
 </div> 
+
 </Fade>
   )
 }

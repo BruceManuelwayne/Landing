@@ -31,6 +31,7 @@
         },
         
         "valores":{
+            "title":"VALUES",
             "title1":"INNOVATION",
             "sen1":"We materialize occurrences. We are motivated by the disruptive application of new concepts or ways of doing things that generate a substantial improvement.",
             "title2":"MAINTAINABILITY",
@@ -51,9 +52,9 @@
     },
     "mission":{
         "title":"MISSION ",
-        "mission1":"Bringing surfing to any part of the world",
+        "mission1":"Bringing surfing to any part of the world.",
         "title2":"VISION",
-        "vision":"To be the best offshore surfing experience"
+        "vision":"To be the best offshore surfing experience."
     },
     "attraction":{
         "title":"ATTRACTION",
@@ -86,6 +87,7 @@
         "li3":"Wave frequency = Compressor capacity"
     },
     "advantages":{
+        "title":"ADVANTAGES",
         "title1":"SUSTAINABLE:",
         "set1":"Designed to be economically viable.",
         "title2":"",

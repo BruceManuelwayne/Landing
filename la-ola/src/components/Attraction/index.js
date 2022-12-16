@@ -68,7 +68,7 @@ const Attraction = () => {
     </section>
     <section id='surfpark' className='bg-[#0e63ab] w-screen'>
     <div className='relative md:absolute  left-0 right-0 mx-auto  lg:mt-16'>
-      <h1 className='text-white font-BoldItalic text-base lg:text-xl text-center mx-auto pt-4'>SURF PARK</h1>
+      <h1 className='text-white font-CustomOla text-base lg:text-xl text-center mx-auto pt-4'>SURFPARK</h1>
       <div className='grid grid-cols-2  justify-self-centers text-white'>
       <Fade triggerOnce cascade delay={1500} fraction={0.6} direction='left'>
         <div className='grid mx-auto text-left justify-end font-TTNormsLight max-w-md'>
@@ -94,11 +94,12 @@ const Attraction = () => {
     </div>
    
     <div className='object-cover'>
-           
+    <section id='contact2'></section>
            <img src={Surfpark} alt='Surf park full'
              className='object-contain object-bottom'/>
-
+   
           </div>
+         
     </section>
     </Fade>
   )
