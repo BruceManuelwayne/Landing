@@ -16,7 +16,7 @@ const Valores = () => {
   return (
     <>
     <Fade triggerOnce>
-        <div className="bg-[url('/src/assets/backgroundModulos.webp')] bg-cover w-screen h:auto lg:h-screen p-8 text-white grid content-center " id='valores' >
+        <div className="bg-[url('/src/assets/backgroundModulos.webp')] bg-cover w-screen h:auto lg:h-screen p-2 lg:p-8 text-white grid content-center " id='valores' >
         <h1 className='text-white font-CustomOla text-base lg:text-xl text-center mx-auto pt-4'>{t("valores.title")}</h1>
             <div className='mx-8 my-8'>
                 <div className=' grid gap-4 grid-cols-1 sm:grid-cols-1 justify-items-stretch text-justify md:grid-cols-2 '>

@@ -22,10 +22,10 @@ function Equipo() {
       </div>
        */}
      
-      <div className=' flex flex-col-reverse  items-center  space-y-0   gap-4 '>
+      <div className=' flex   items-center  space-y-0   gap-4 '>
           
            <div className='flex flex-shrink w-screen'>
-            <Fade triggerOnce direction='left' fraction={0.6}>
+            <Fade triggerOnce direction='left'>
             <img src={Render} alt='ParkRender'
             className='w-screen'/>
             </Fade>
