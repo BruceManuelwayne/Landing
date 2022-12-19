@@ -29,7 +29,6 @@ const Tech = () => {
   <Fade/>
   
       <div className='p-5 md:p-20 hidden lg:inline'>
-      <section id="ventajas"></section>
        <Fade triggerOnce> <img className='w-52 md:w-96  '
           src={Logo} alt='LogoLaOlaAzul'/></Fade>
       </div>
