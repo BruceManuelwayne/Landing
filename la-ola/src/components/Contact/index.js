@@ -12,7 +12,7 @@ function Contact() {
 
   return ( 
   <Fade triggerOnce cascade>
-  <section id="contact" className='bg-slate-50 pb-0 mb-0 w-screen'>
+  <section id="contact" className='bg-slate-50 pb-0 mb-0 h-auto w-screen'>
     <div className='container flex content-center items-center flex-col-reverse md:flex-row items center px-6-mx-auto-mt-10 space-y-0 md:space-y-0 px-6 mx-auto mt-10 space-y.0'>
     <div className=' flex flex-col mb-32 space-y-1 content-center items-center md:w-1/2 text-white font-semibold font-TTNormsLight'>
       <div><img src={Logo} alt='' className=" h-60 scale-90 md:scale-100 "/></div>

@@ -12,48 +12,14 @@ function Equipo() {
 
   return(
   <Fade triggerOnce>
-    <section id="" className='bg-slade-50 w-screen flex items-center '>
-{/*     
-      <div className='absolute right-0 my-auto hidden md:inline items-center'>
+    <section id="" className='bg-slate-50 flex items-center w-screen justify-center h-screen '>
    
-          <img src={sideSvg} alt='sidedetail'
-          className='my-auto'/>
     
+      <div className=" text-white font-bold  border shadow-lg p-10">
+        <iframe className='md:w-[750px] md:h-[450px] lg:w-[900px] lg:h-[600px]' width="650" height="400" src="https://www.youtube.com/embed/8ArC0N1NC2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-       */}
-     
-      <div className=' flex   items-center  space-y-0   gap-4 '>
-          
-           <div className='flex flex-shrink w-screen'>
-            <Fade triggerOnce direction='left'>
-            <img src={Render} alt='ParkRender'
-            className='w-screen'/>
-            </Fade>
-           
-           </div>
-          {/* <Fade cascade triggerOnce>
-           <div className='flex flex-col space-y-4 mx-2 pt-4 md:w-2/3 font-BoldItalic text-base lg:text-xl text-[#0E63AB] font-semibold  '>
-           <div className='font-TTNormsLight text-base mb-4 lg:text-xl text-[#0E63AB]'>{t("advantages.set3")}</div>
-            {t("advantages.title1")}
-           <Fade direction='right' triggerOnce  cascade>
-            
-            <div className='font-TTNormsLight text-sm lg:text-base text-black'>{t("advantages.set1")}</div>
-            <div className=' text-[#0E63AB] font-BoldItalic text-base lg:text-xl'>{t("advantages.title2")}</div>
-            <div className='font-TTNormsLight text-black text-sm lg:text-base '>{t("advantages.set2")}</div>
-            
-            </Fade>
-           </div>
-           </Fade> */}
-           
+      
 
-           {/* <div className='flex flex-col space-y-8 md:w-2/3 font-TTNormsReg text-[#0E63AB] font-semibold'>
-              <p className='max-w-md text-center md:text-right font-TTNormsLight'>{t("team.team3")} </p>
-            </div>  */}
-      
-         </div>
-      
-      
-        
     
         
     </section>

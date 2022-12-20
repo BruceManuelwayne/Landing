@@ -19,7 +19,7 @@ const Modulos = () => {
                 <div className=' grid gap-4 grid-cols-1 sm:grid-cols-1 justify-items-stretch text-justify md:grid-cols-2 '>
                     <Fade cascade delay={1000} triggerOnce>
                       <div className='grid grid-custom gap-x-4 justify-items-end'>
-                            <div className='w-7 md:w-8 '>
+                            <div className='w-5 mt-[2px] md:mt-0 md:w-6 '>
                                 <img src={circle} alt='Circle1'/>
                             </div>
                             <div className=''>
@@ -29,7 +29,7 @@ const Modulos = () => {
                         </div>
                         <div className='grid grid-custom gap-x-4 '>
                             
-                            <div className='w-7 md:w-8 '>
+                            <div className='w-5 mt-[2px] md:mt-0 md:w-6 '>
                                 <img src={circle} className='' alt='Circle1'/></div>
                             <div className=''>  
                                 <span className='font-BoldItalic text-base lg:text-xl'>{t("machine.titulo")}</span>
@@ -37,7 +37,7 @@ const Modulos = () => {
                             </div>
                         </div>
                         <div className='grid grid-custom gap-x-4 justify-items-end'>
-                            <div className='w-7 md:w-8 '>
+                            <div className='w-5 mt-[2px] md:mt-0 md:w-6 '>
                                 <img src={circle} alt='Circle1'/>
                             </div>
                             <div>
@@ -47,7 +47,7 @@ const Modulos = () => {
                         </div>
                        
                         <div className='grid grid-custom gap-x-4 justify-items-end'>
-                            <div className='w-7 md:w-8 '>
+                            <div className='w-5 mt-[2px] md:mt-0 md:w-6 '>
                                 <img src={circle} alt='Circle1'/>
                             </div>
                             <div>
@@ -56,7 +56,7 @@ const Modulos = () => {
                             </div> 
                         </div>
                         <div className='grid grid-custom gap-x-4 justify-items-end'>
-                            <div className='w-7 md:w-8 '>
+                            <div className='w-5 mt-[2px] md:mt-0 md:w-6 '>
                                 <img src={circle} alt='Circle1'/>
                             </div>
                             <div>
@@ -65,7 +65,7 @@ const Modulos = () => {
                             </div> 
                         </div>
                         <div className='grid grid-custom gap-x-4 justify-items-end'>
-                            <div className='w-7 md:w-8 '>
+                            <div className='w-5 mt-[2px] md:mt-0 md:w-6 '>
                                 <img src={circle} alt='Circle1'/>
                             </div>
                             <div>

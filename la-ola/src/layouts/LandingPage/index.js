@@ -25,8 +25,9 @@ const LandingPageLayout = () => {
           <Tech/>
         
           <Modulos/>
-          <Equipo/>
+          
           <Attraction/>
+          <Equipo/>
           <Contact/>
         </div>
   
