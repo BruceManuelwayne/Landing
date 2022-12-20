@@ -34,10 +34,9 @@ const Hero2 = () => {
       </div>
   
       <div className='h-auto object-cover flex-auto mx-auto'>
-      <Fade triggerOnce fraction={0.8} direction='left'>
+      <Fade triggerOnce direction='left'>
         <img src={buzo}
         alt='buzoOla'
-        
         />
         </Fade>
       </div>
