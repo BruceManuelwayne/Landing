@@ -56,8 +56,9 @@ const Header = () => {
 
     return (
         <div  className=' bg-black flex w-screen justify-between items-center h-24 px-4 fixed z-20  font-CustomOla'>
-            <div>
-                 <img onClick={handleNav} className={logo ? 'hidden': 'object-scale-down h-40 w-40 '} src={Logo} alt="" />
+            <div><a href='#home'>   
+                 <img onClick={handleNav} className={logo ? 'hidden': 'object-scale-down h-40 w-40 '} src={Logo} alt="La Ola Group Logo" />
+                </a>
             </div>
             <ul className='hidden md:flex text-white font-CustomOla md:text-sm'>
                 <li className='md:text-base hover:text-gray-400 '>
@@ -127,7 +128,7 @@ const Header = () => {
                                 <a href='#valores2'>{t("nav.valores")}</a>          
                             </li>   
                             <li className='hover:text-gray-400 border-b'>
-                                <a href='#tech2'>{t("nav.tecnologia")} </a>     
+                                <a href='#tech'>{t("nav.tecnologia")} </a>     
                             </li>
                             
                             <li className='hover:text-gray-400 border-b'>
@@ -137,7 +138,7 @@ const Header = () => {
                                 <a href='#attraction'>{t("nav.surfpark")}</a>       
                             </li>
                             <li className='hover:text-gray-400 border-b   text-blue-400 font-bold '>
-                                <a href='#contact2'>{t("nav.contacto")}</a>       
+                                <a href='#contact'>{t("nav.contacto")}</a>       
                             </li>
                         </ul>
                         <div className='flex justify-between my-6 p-4'>

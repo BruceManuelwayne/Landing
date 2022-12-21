@@ -23,7 +23,7 @@ const Modulos = () => {
                                 <img src={circle} alt='Circle1'/>
                             </div>
                             <div className=''>
-                                <span className='font-BoldItalic text-base lg:text-xl capitalize'>{t("modulos.title1")}</span>
+                                <span className='font-BoldItalic text-base lg:text-xl'>{t("modulos.title1")}</span>
                                 <p className='font-TTNormsLight text-sm lg:text-base'>{t("modulos.sen1")}</p>
                             </div>
                         </div>

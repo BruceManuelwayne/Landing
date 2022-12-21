@@ -40,9 +40,12 @@ const Hero2 = () => {
         />
         </Fade>
       </div>
-      <section id='valores2'></section>
+      
 </div> 
-
+<section id='valores2' className='   '>
+<div className= 'absolute bottom-100  h-36 w-full'></div>
+<div className= 'absolute bottom-100  h-36 w-full'></div>
+</section>
 </Fade>
   )
 }
