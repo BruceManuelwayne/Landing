@@ -50,7 +50,7 @@ function Contact() {
 
   </div>
   <Wave mask="url(#mask)" fill="#0762aa" options={{
-     height: 20,
+     height: 10,
      amplitude: 40,
      speed: 0.10,
      points: 3
