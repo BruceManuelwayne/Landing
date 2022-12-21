@@ -24,9 +24,9 @@
     },
     
     "machine":{
-        "titulo":"VERSATIL:", 
+        "titulo":"VERSATIL", 
         "machine1":"La modularidad de nuestra tecnología permite la fácil adaptación de los tipos de olas de acuerdo a los requisitos comerciales que marque el público objetivo.",
-        "componentes":"INVISIBLE E INSONORA:",
+        "componentes":"INVISIBLE E INSONORA",
         "compInfo":"La máquina y su correspondiente sala de operaciones pueden invisibilizarse e insonorizarse creando un entorno armónico en el medio donde se implemente, sin contaminación visual ni sonora.",
         "main":"MANTENIMIENTO",
         "mainInfo":"La mayor parte de las piezas se localizan en una zona seca reduciendo la exposición a la corrosión y permitiendo el fácil acceso a los componentes implicados en el funcionamiento de la máquina."
@@ -52,9 +52,9 @@
             },
         
         "modulos":{
-            "title1":"ABASTECIMIENTO ESTANDARIZADO:",
+            "title1":"ABASTECIMIENTO ESTANDARIZADO",
             "sen1":"Resignificamos insumos de industrias preexistentes, ensamblando piezas y optimizando así los tiempos de construcción.",
-            "title2":"TECNOLOGIA MODULAR:",
+            "title2":"TECNOLOGIA MODULAR",
             "sen2":"La máquina se estructura modularmente de manera que variando la cantidad o la dimensión de sus componentes se obtienen distintos productos resultantes y consecuentemente distinta inversión inicial requerida.",
             "title3":"DIVISION DE COSTOS",
             "li1":"Tamaño de Ola = Dimensión de los tubos",
@@ -89,9 +89,9 @@
         },
         "advantages":{
             "title":"VENTAJAS",
-            "title1":"SOSTENIBLE:",
+            "title1":"SOSTENIBLE",
             "set1":"Concebido económicamente viable.",
-            "title2":"SUSTENTABLE:",
+            "title2":"SUSTENTABLE",
             "set2":"Posee consumo constante no generando picos eléctricos y por lo tanto puede utilizarse energías renovables.",
             "set3":"LA OLA GROUP | VENTAJAS COMPETITIVAS"
         }

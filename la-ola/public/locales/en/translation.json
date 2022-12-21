@@ -2,7 +2,7 @@
     
     "nav": {
         "tecnologia":"TECHNOLOGY",
-        "quienes somos": "ABOUT US",
+        "quienes somos":"ABOUT US",
         "valores": "VALUES",
         "negocio":"ADVANTAGES", 
         "contacto": "CONTACT US",
@@ -22,9 +22,9 @@
         "mainInfo": "We are an Argentinean technology company that develops, designs and builds machines and pools in order to generate dynamic artificial surfable waves in a sustainable and long-lasting way. We are united by our passion for surfing and the desire to bring it to any part of the world, breaking paradigms and generating the possibility of carrying out a new lifestyle in places previously unthinkable. We have an interdisciplinary team working under the premise of continuous improvement in the permanent search to make our dream come true: Waves anywhere around the world."
     },
     "machine":{
-        "titulo":"VERSATILE:", 
+        "titulo":"VERSATILE", 
         "machine1":"The modularity of our technology allows the easy adaptation of wave types according to the commercial requirements of the target audience.",
-        "componentes":"INVISIBLE AND SOUNDPROOF:",
+        "componentes":"INVISIBLE AND SOUNDPROOF",
         "compInfo":"The machine and its corresponding operating room can be made invisible and soundproofed, creating a harmonious environment  where it is implemented, without visual or noise pollution.",
         "main":"MAINTENANCE",
         "mainInfo":"The majority of components are located in dry areas reducing the exposure to corrosion and allowing easy access to said components."
@@ -77,9 +77,9 @@
         
     },
     "modulos":{
-        "title1":"STANDARD SUPPLY:",
+        "title1":"STANDARD SUPPLY",
         "sen1":"We repurpose supplies from preexisting industries, assembling standard components to optimize our construction times.",
-        "title2":"MODULAR TECHNOLOGY:",
+        "title2":"MODULAR TECHNOLOGY",
         "sen2":"The machine has a modular structure, so that one only needs to change the amount or size of its components to obtain varied products suitable to different budgets.",
         "title3":"COST BREAKDOWN",
         "li1":"Wave height = Cannon size",
@@ -88,9 +88,9 @@
     },
     "advantages":{
         "title":"ADVANTAGES",
-        "title1":"SUSTAINABLE:",
+        "title1":"SUSTAINABLE",
         "set1":"Designed to be economically viable.",
-        "title2":"",
+        "title2":"ENVIRONMENTALLY CONSCIOUS",
         "set2":"It has constant consumption and does not generate electrical peaks and therefore renewable energies can be used.",
         "set3":"LA OLA GROUP | COMPETITIVE ADVANTAGES"
     }
