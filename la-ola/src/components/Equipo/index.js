@@ -12,20 +12,20 @@ function Equipo() {
 
   return(
   <Fade triggerOnce>
-    <section id="" className='bg-[#0e63ab] flex items-center w-screen justify-center h-48 lg:h-screen '>
-   
-    
-      <div className=" hidden lg:inline-flex text-white font-bold p-10">
-        <iframe className='md:w-[750px] md:h-[450px] lg:w-[900px] lg:h-[600px] ml-20' src="https://www.youtube.com/embed/8ArC0N1NC2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div className='lg:hidden flex items-center justify-center'>
-        <iframe width="400" height="170" className='ml-20' src="https://www.youtube.com/embed/8ArC0N1NC2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      
-
-    
-        
-    </section>
+   <section id='ventajas' className='w-screen bg-[#0e63ab] p-6'>
+   <div className="flex flex-col items-center w-2/3 mx-auto ">
+	
+	<div className="relative h-0 overflow-hidden max-w-full w-full" 
+		  style={{paddingBottom:'56.25%'}}>
+		<iframe
+       		src="https://www.youtube.com/embed/8ArC0N1NC2c"
+            frameborder="0"
+            allowfullscreen
+            class="absolute top-0 left-0 w-full h-full"
+        ></iframe>
+	</div>
+</div>  
+   </section>
   </Fade>
   )
 }
