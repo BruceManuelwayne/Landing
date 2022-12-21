@@ -13,7 +13,7 @@ function Equipo() {
   return(
   <Fade triggerOnce>
    <section id='ventajas' className='w-screen bg-[#0e63ab] p-6'>
-   <div className="flex flex-col items-center w-2/3 mx-auto ">
+   <div className="flex flex-col items-center lg:w-2/3 mx-auto ">
 	
 	<div className="relative h-0 overflow-hidden max-w-full w-full" 
 		  style={{paddingBottom:'56.25%'}}>
