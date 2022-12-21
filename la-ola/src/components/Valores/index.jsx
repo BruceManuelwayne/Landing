@@ -16,13 +16,13 @@ const Valores = () => {
   return (
     <>
     <Fade triggerOnce>
-        <div className="bg-[url('/src/assets/backgroundModulos.webp')] bg-cover w-screen h:auto lg:h-screen p-2 lg:p-8 text-white grid content-center " id='valores' >
-        <h1 className='text-white font-CustomOla text-base lg:text-xl text-center mx-auto pt-4'>{t("valores.title")}</h1>
-            <div className='mx-8 my-8'>
-                <div className=' grid gap-4 grid-cols-1 sm:grid-cols-1 justify-items-stretch text-justify md:grid-cols-2 '>
+        <div className="bg-[url('/src/assets/backgroundModulos.webp')] bg-cover w-screen h-auto lg:h-screen p-2 lg:p-8 text-white grid content-start " id='valores' >
+        <h1 className='text-white font-CustomOla text-base lg:text-xl text-center mx-auto p-6  underline'>{t("valores.title")}</h1>
+            <div className='mx-8 my-2'>
+                <div className=' grid gap-4 grid-cols-1 sm:grid-cols-1 justify-items-stretch text-justify md:grid-cols-2'>
                     <Fade cascade delay={1000} triggerOnce>
 
-                        <div className='grid grid-custom gap-x-4 '>
+                        <div className='grid cont grid-custom gap-x-4 '>
                             
                             <div className='w-5 mt-[2px] md:mt-0 md:w-6 '>
                                 <img src={circle} className='' alt='Circle1'/></div>

@@ -67,8 +67,8 @@ const Attraction = () => {
          */}
     </section>
     <section id='surfpark' className='bg-[#0e63ab] w-screen'>
-    <div className='relative md:absolute  left-0 right-0 mx-auto  lg:mt-16'>
-      <h1 className='text-white font-CustomOla text-base lg:text-xl text-center mx-auto pt-4'>SURFPARK</h1>
+    <div className='relative md:absolute  left-0 right-0 mx-auto'>
+      <h1 className='text-white font-CustomOla text-base lg:text-xl text-center mx-auto md:mt-2 p-8 underline '>SURFPARK</h1>
       <div className='grid grid-cols-2  justify-items-sretch text-white'>
       <Fade triggerOnce cascade delay={1500} fraction={0.6} direction='left'>
           <div className='grid mx-auto text-left justify-self-end font-TTNormsLight max-w-md'>
