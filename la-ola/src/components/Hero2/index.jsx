@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
-import buzo from './../..//assets/buzo.webp';
+import buzo from './../..//assets/cropped.webp';
 import sideSvg from './../../assets/sidebar.svg'
 import {Fade} from 'react-awesome-reveal';
 

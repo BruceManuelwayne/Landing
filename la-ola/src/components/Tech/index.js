@@ -22,13 +22,13 @@ const Tech = () => {
     </div>   
     <div className='bg-slate-50 flex flex-col w-screen  lg:flex-row-reverse items-center md:justify-evenly text-center md:text-left'>
      
-      <div className='px-8 pb-4  mx-auto md:p-10 w-screen font-TTNormsLight text-sm lg:text-base text-justify md:max-w-fit'>
+      <div className='px-8 pb-4  mx-auto md:p-20  w-screen font-TTNormsLight text-sm lg:text-base text-justify md:max-w-fit'>
         <Fade triggerOnce>{t("tech.tecno1")}</Fade>
       </div>
       
   <Fade/>
   
-      <div className='p-5 md:p-20 hidden lg:inline w-1/2'>
+      <div className='p-5 md:pl-36 md:p-10 hidden lg:inline w-1/2'>
        <Fade triggerOnce> <img className='w-52 md:w-96  '
           src={Logo} alt='LogoLaOlaAzul'/></Fade>
       </div>
