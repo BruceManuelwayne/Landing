@@ -34,7 +34,7 @@ const Tech = () => {
       </div>
     </div>
     <div className='bg-[#0E63AB] '>
-    <Fade triggerOnce> <img className='w-full  '
+    <Fade triggerOnce> <img className='w-screen p-5 lg:p-20 '
           src={Dibujo} alt='LogoLaOlaAzul'/></Fade>
    
    </div>
