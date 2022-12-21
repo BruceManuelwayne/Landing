@@ -15,7 +15,7 @@ const Hero2 = () => {
           <img src={sideSvg} alt='sidedetail' className='scale-150'/>
       </div>
      
-      <div className='h-full flex flex-col p-2 md:p-10'>
+      <div className='h-full flex flex-col p-2 md:p-10 xl:p-14'>
         
         <div className='flex flex-wrap space-y-2 lg:space-y-0 lg:gap-12 justify-center'> 
         <Fade triggerOnce cascade fraction={0.6} direction='left'>

@@ -11,7 +11,7 @@ const Modulos = () => {
   return (
     <Fade triggerOnce>
     <section id='ventajas'>
-    <div className="bg-[url('/src/assets/valores.webp')]  bg-cover bg-center  w-screen h-auto p-2 lg:p-8 text-white grid content-start">
+    <div className="bg-[url('/src/assets/valores.webp')]  bg-cover bg-center  w-screen h-auto p-2 lg:p-8 xl:p-10 text-white grid content-start">
     <div className=''>
       <h1 className=' font-CustomOla text-base lg:text-xl text-center mx-auto p-6 underline'>{t("advantages.title")}</h1>
     </div>  
