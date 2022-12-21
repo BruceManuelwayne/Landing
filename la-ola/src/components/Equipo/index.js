@@ -16,10 +16,10 @@ function Equipo() {
    
     
       <div className=" hidden lg:inline-flex text-white font-bold p-10">
-        <iframe className=' md:w-[750px] md:h-[450px] lg:w-[900px] lg:h-[600px]' src="https://www.youtube.com/embed/8ArC0N1NC2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe className='md:w-[750px] md:h-[450px] lg:w-[900px] lg:h-[600px] ml-20' src="https://www.youtube.com/embed/8ArC0N1NC2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-      <div className='lg:hidden'>
-      <iframe width="320" height="170" src="https://www.youtube.com/embed/8ArC0N1NC2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div className='lg:hidden flex items-center justify-center'>
+        <iframe width="400" height="170" className='ml-20' src="https://www.youtube.com/embed/8ArC0N1NC2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       
 
