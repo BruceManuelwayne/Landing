@@ -19,6 +19,7 @@ function Equipo() {
             frameborder="0"
             allowfullscreen
             class="absolute top-0 left-0 w-full h-full"
+            title='Youtube render video'
         ></iframe>
 	</div>
 </div>  
