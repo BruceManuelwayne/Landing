@@ -1,6 +1,7 @@
 import React from "react";
 import videoBg from '../../assets/VideoBackground.mp4';
 import './style.css'
+import Poster from '../../assets/welcome-screen.webp'; 
 
 const Video = props => {
     const [isVideoLoaded, setIsVideoLoaded] = React.useState(false);
@@ -17,6 +18,7 @@ const Video = props => {
         autoPlay
         muted
         loop
+        poster={Poster}
         preload={'auto'}
         playsInline
         onLoadedData={onLoadedData}
