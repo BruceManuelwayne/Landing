@@ -17,6 +17,7 @@ const Video = props => {
         autoPlay
         muted
         loop
+        preload={'auto'}
         playsInline
         onLoadedData={onLoadedData}
         style={{ opacity: isVideoLoaded ? 1 : 0 }}

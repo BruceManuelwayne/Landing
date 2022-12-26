@@ -1,13 +1,9 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
-import logo from '../../assets/whiteOla.svg';
+
 import circle from '../../assets/Circle.svg';
 import Dibujo from '../../assets/doodle.svg';
-import circle1 from '../../assets/numbers/1.svg';
-import circle2 from '../../assets/numbers/2.svg';
-import circle3 from '../../assets/numbers/3.svg';
-import circle4 from '../../assets/numbers/4.svg';
-import circle5 from '../../assets/numbers/5.svg';
+
 import {Fade} from 'react-awesome-reveal';
 
 const Valores = () => {
