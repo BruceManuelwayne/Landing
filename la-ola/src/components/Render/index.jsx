@@ -32,7 +32,7 @@ const Render = () => {
                   </div>
                 </div>           
             </Fade>
-            <div className='fixed right-5 md:right-20 bottom-0'>
+            <div className='absolute right-5 md:right-20 bottom-0'>
               <Fade triggerOnce delay={1000} direction='left'>  
                 <img className=' object-contain w-44 h-28 mb-10 md:mb-0 md:mr-4 md:w-80 md:h-48 lg:w-96 ' src={keepWet} alt="keepWet tech" /> 
               </Fade>
