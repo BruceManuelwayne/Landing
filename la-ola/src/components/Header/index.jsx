@@ -37,7 +37,7 @@ const Header = () => {
     return (
         <div  className=' bg-black flex w-screen justify-between items-center h-24 px-4 fixed z-20  font-CustomOla'>
             <div><a href='#home'>   
-                 <img onClick={handleNav} className={logo ? 'hidden': 'object-scale-down h-40 w-40 '} src={Logo} alt="La Ola Group Logo" />
+                 <img  className={logo ? 'hidden': 'object-scale-down h-40 w-40 '} src={Logo} alt="La Ola Group Logo" />
                 </a>
             </div>
             <ul className='hidden md:flex text-white font-CustomOla md:text-sm'>

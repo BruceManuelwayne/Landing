@@ -21,7 +21,6 @@ const Video = props => {
         poster={Poster}
         preload={'auto'}
         playsInline
-    
         onLoadedData={onLoadedData}
         style={{ opacity: isVideoLoaded ? 1 : 0 }}
         />   
