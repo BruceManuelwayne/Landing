@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import Logo from '../../assets/laolagroupazul.svg'
 
-import Dibujo from '../../assets/dibujo.svg'
+
 
 import {Fade} from 'react-awesome-reveal'; 
 
@@ -16,7 +16,7 @@ const Tech = () => {
 
   return (
   <Fade triggerOnce fraction={0.6} >
-  <div className='bg-slate-50 w-screen flex flex-wrap flex-col lg:pt-6 '>
+  <div className='bg-slate-50 w-screen flex flex-wrap flex-col lg:py-6 '>
   <div className=''>
       <h1 className='text-[#0E63AB] font-CustomOla text-base lg:text-xl text-center mx-auto p-6 md:pb-0 underline'>{t("tech.titulo")}</h1>
     </div>   
@@ -33,11 +33,7 @@ const Tech = () => {
           src={Logo} alt='LogoLaOlaAzul'/></Fade>
       </div>
     </div>
-    <div className='hidden md:inline bg-[#0E63AB] '>
-    <Fade triggerOnce direction='left' fraction={0.5}> <img className='w-screen p-5 lg:p-20 '
-          src={Dibujo} alt='LogoLaOlaAzul'/></Fade>
    
-   </div>
   
   </div>
  </Fade>

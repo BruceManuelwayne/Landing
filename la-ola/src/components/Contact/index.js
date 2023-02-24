@@ -11,7 +11,7 @@ function Contact() {
     const[t] = useTranslation("translation")
 
   return ( 
-  <Fade triggerOnce cascade>
+  <Fade triggerOnce cascade className='bg-slate-50'>
   <section id="contact" className='bg-slate-50 pb-0 mb-0 h-auto w-screen'>
     <div className='container flex content-center items-center flex-col-reverse md:flex-row items center px-6-mx-auto-mt-10 space-y-0 md:space-y-0 px-6 mx-auto mt-10 space-y.0'>
     <div className=' flex flex-col mb-32 space-y-1 content-center items-center md:w-1/2 text-white font-semibold font-TTNormsLight'>
@@ -32,16 +32,22 @@ function Contact() {
     </div>
     <div className=' flex flex-col mb-32 space-y-12 w-full md:w-1/2  text-blue-wave font-semibold font-TTNormsReg'> 
  
-      <div className='rounded'> 
-        <iframe
-          src="https://app.fillout.com/flow/vzErqXx7Vnus?__background=rgba(14%2C%2099%2C%20171%2C%201)&__formBackground=%23fff"
+      <div className='rounded overflow-hidden'> 
+        
+        <iframe 
+          
+          src="https://app.fillout.com/t/5DAFLVLYxwus"
           width="100%"
           height="600px"
           frameborder="0"
           marginheight="0"
           marginwidth="0"
-          title="Form">
+          title="Interesadosv2"
+          overflow="hidden"
+     
+          >
         </iframe>
+
 
       
        </div>

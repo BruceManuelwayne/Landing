@@ -10,7 +10,8 @@
         "valores": "VALUES",
         "negocio":"ADVANTAGES", 
         "contacto": "CONTACT US",
-        "surfpark":"SURFPARK"
+        "surfpark":"SURFPARK",
+        "news":"NEWS"
     },
     "hero":{
         "olas1":"WE PROVIDE WAVES TO ANY LOCATION IN THE WORLD",

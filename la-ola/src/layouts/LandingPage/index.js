@@ -18,7 +18,7 @@ const LandingPageLayout = () => {
 
     return (
        
-        <div className='h-screen w-screen flex flex-col '>
+        <div className='h-screen w-screen flex flex-col bg-slate-50'>
           <Header/>
           <Main/>
           <Valores/>

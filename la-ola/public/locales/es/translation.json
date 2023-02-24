@@ -9,7 +9,8 @@
         "valores": "VALORES",
         "negocio":"VENTAJAS", 
         "contacto": "Contacto",
-        "surfpark":"SURFPARK"
+        "surfpark":"SURFPARK",
+        "news":"NOVEDADES"
     },
   
     "hero": {

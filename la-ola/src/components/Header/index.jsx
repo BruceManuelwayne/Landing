@@ -60,6 +60,9 @@ const Header = () => {
                  <li className=' md:text-base hover:text-gray-400'>
                      <a href='#attraction'>{t("nav.surfpark")}</a>     
                  </li>
+                 <li className=' md:text-base hover:text-gray-400'>
+                     <a href='https://la-ola-group.notion.site/Novedades-Sobre-Olas-Artificiales-3589e8eecf9e45728e4f34063ba78fee'>{t("nav.news")}</a>     
+                 </li>
                  <li className=' md:text-base hover:text-gray-400   text-blue-400 font-bold '>
                      <a href='#contact'>{t("nav.contacto")}</a>      
                  </li>
@@ -114,6 +117,10 @@ const Header = () => {
                             </li>
                             <li className='hover:text-gray-400 border-b'>
                                 <a href='#attraction'>{t("nav.surfpark")}</a>       
+                            </li>
+                            
+                            <li className='hover:text-gray-400 border-b'>
+                                <a href='https://la-ola-group.notion.site/Novedades-Sobre-Olas-Artificiales-3589e8eecf9e45728e4f34063ba78fee'>{t("nav.news")}</a>       
                             </li>
                             <li className='hover:text-gray-400 border-b   text-blue-400 font-bold '>
                                 <a href='#contact'>{t("nav.contacto")}</a>       
