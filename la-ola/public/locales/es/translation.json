@@ -14,9 +14,9 @@
     },
   
     "hero": {
-        "olas1":"LLEVAMOS EL SURF A CUALQUIER PARTE DEL MUNDO",
-        "olas":"LLEVAMOS EL SURF A CUALQUIER ",
-        "olas2":"PARTE DEL MUNDO",
+        "olas1":"",
+        "olas":"LLEVAMOS OLAS",
+        "olas2":"A CUALQUIER PARTE DEL MUNDO",
         "conocenos": "CONOCENOS"
     },
     "tech": {
@@ -99,5 +99,11 @@
             "title2":"SUSTENTABLE",
             "set2":"Posee consumo constante no generando picos eléctricos y por lo tanto puede utilizarse energías renovables.",
             "set3":"LA OLA GROUP | VENTAJAS COMPETITIVAS"
+        },
+        "nosotros":{
+            "title":"The surfhouse es un espacio que nace con la intención de acercar el mar a la ciudad.",
+            "set1":"Somos amantes de los deportes de tablas, vivimos para surfear y creemos que HAY OTRA MANERA DE VIVIR LA CIUDAD.",
+            "set2":"Desarrollamos una metodología integral de entrenamiento pensando en tu evolución física y técnica. Contamos con un grupo de especialistas en nutrición, kinesiología y osteopatía,disponibles para acompañarte en todo momento.",
+            "set3":"Queremos ayudarte a lograr tu mejor versión."
         }
 }
